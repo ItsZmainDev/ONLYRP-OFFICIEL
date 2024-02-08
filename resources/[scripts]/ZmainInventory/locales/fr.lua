@@ -1,0 +1,91 @@
+Locales = {} or Locales
+
+Locales['fr'] = {
+    -- general
+    ['quantite'] = 'Quantité : ', 
+    ['no_player'] = 'Aucun joueur dans les alentours.', 
+    ['no_possible'] = 'Impossible de réaliser cette action.', 
+    ['weight_unity'] = 'KG', 
+    ['buy'] = 'Acheter', 
+    -- 
+    ['no_player_handsup'] = 'Le joueur doit lever les mains.',
+    -- item 
+    ['no_give_item'] = 'Vous ne pouvez pas donner cet item.',
+    ['no_give_item'] = 'Vous ne pouvez pas donner cette arme.',
+    ['give_from_item'] = 'Vous avez donné x%s %s',
+    ['give_target_item'] = 'Vous avez reçu x%s %s',
+    ['give_error_weight'] = 'L\'inventaire de la personne est plein',
+
+    ['give_from_account'] = 'Vous avez donné x%s %s',
+    ['give_target_account'] = 'Vous avez reçu x%s %s',
+    ['give_error_account'] = 'Vous n\'avez pas assez d\'argent.',
+
+    ['give_from_clothes'] = 'Vous avez donner un vêtement',
+    ['give_target_clothes'] = 'Vous avez reçu un vêtement',
+
+    ['give_from_weapon'] = 'Vous avez donné un/une %s',
+    ['give_target_weapon'] = 'Vous avez reçu un un/une %s',
+    ['give_error_weapon'] = 'La personne possède déjà cette arme',
+    -- delete
+    ['trash_distance'] = 'Vous devez être à côté d\'une poubelle pour faire ça', 
+    -- clothes
+    ['help_clothes_shop'] = 'Appuyez sur ~INPUT_CONTEXT~ pour afficher le magasin',
+    ['sub_title_clothes'] = 'Actions disponibles :',
+    ['register_clothes'] = 'Enregistrer la tenue',
+    ['save_clothes'] = 'Sauvegarder la tenue',
+    ['choise_name_clothes'] = 'Nom de la tenue :',
+    ['accept_paie_clothes'] = 'Votre achat a été éffectué.',
+    ['refuse_paie_clothes'] = 'Vous n\'avez pas assez d\'argent',
+    ['helmet'] = 'Chapeau',
+    ['top'] = 'Haut',
+    ['t-shirt'] = 'T-Shirt',
+    ['color_t-shirt'] = 'Couleur du T-Shirt',
+    ['vest'] = 'Gilet',
+    ['color_vest'] = 'Couleur du Gilet',
+    ['torso'] = 'Torse',
+    ['color_torso'] = 'Couleur du Torse',
+    ['arm'] = 'Gants',
+    ['color_arm'] = 'Couleur des Gants',
+    ['pants'] = 'Pantalon',
+    ['shoes'] = 'Chaussure',
+    ['glasses'] = 'Lunette',
+    ['ears'] = 'Oreille',
+    ['watches'] = 'Montre',
+    ['bracelets'] = 'Bracelet',
+    ['chain'] = 'Chaine',
+    ['bags'] = 'Sac',
+    ['mask'] = 'Masque',
+    ['variation'] = 'Variation',
+    ['rename_clothes'] = 'Vous avez choisi (%s) comme nouveau nom.',
+    ['title_clothes'] = 'Nouveau nom :',
+    ['rename_error_clothes'] = 'Le nom est mal défini.',
+    -- boombox
+    ['play_boombox'] = 'Jouer de la musique',
+    ['change_boombox'] = 'Changer le son',
+    ['pos_boombox'] = 'Appuyez sur ~INPUT_CONTEXT~ pour poser la radio',
+    ['information_boombox'] = '~INPUT_CONTEXT~ pour intéragir\n~INPUT_ENTER~ pour ramasser\n~INPUT_CELLPHONE_LEFT~ ~INPUT_CELLPHONE_RIGHT~ volume : %s\n~INPUT_CELLPHONE_UP~ ~INPUT_CELLPHONE_DOWN~ distance : %s\n',
+    -- trunk
+    ['trunk_name'] = 'Coffre ',
+    ['trunk_vehicle_close'] = 'Impossible le véhicule est verrouillé',
+    ['trunk_vehicle_distance'] = 'Il n\'y a pas de véhicule près de vous.',
+    ['trunk_vehicle_no_in'] = 'Vous ne pouvez pas faire ça dans un véhicule',
+    ['trunk_no_owner'] = 'Vous ne pouvez pas déposer d\'item dans le coffre de ce véhicule',
+    ['trunk_error_number_item'] = 'La quantité est invalide.',
+    ['trunk_weight_max'] = 'Le coffre est plein...',
+    ['trunk_weight_player_max'] = 'Vous n\'avez plus de place sur vous',
+    ['trunk_deposit'] = 'Vous venez de déposé x%s %s dans le véhicule',
+    ['trunk_remove'] = 'Vous venez de retiré x%s %s du véhicule',
+    ['trunk_deposit_label'] = 'Vous venez de déposé ~b~%s~s~ dans le véhicule',
+    ['trunk_remove_label'] = 'Vous venez de retiré ~b~%s~s~ du véhicule',
+    -- tool
+    ['trade_from_item'] = 'Vous avez récuperer x%s %s',
+    ['trade_target_item'] = 'Quelqu\'un à récupérer x%s %s',
+    ['trade_from_account'] = 'Vous avez récuperer x%s %s',
+    ['trade_target_account'] = 'Quelqu\'un à récupérer x%s %s',
+    ['trade_from_weapon'] = 'Vous avez récuperer x%s %s',
+    ['trade_target_weapon'] = 'Quelqu\'un à récupérer x%s %s',
+    ['trade_from_clothes'] = 'Vous avez récuperer un vêtement',
+    ['trade_target_clothes'] = 'Quelqu\'un à récupérer un vêtement',
+    ['trade_weight_max'] = 'Vous avez trop d\'objet sur vous'
+
+}

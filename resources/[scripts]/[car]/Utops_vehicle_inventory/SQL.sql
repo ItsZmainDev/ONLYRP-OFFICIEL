@@ -1,0 +1,1 @@
+ALTER TABLE `owned_vehicles` ADD `inventory` text NULL AFTER `vehicle`;

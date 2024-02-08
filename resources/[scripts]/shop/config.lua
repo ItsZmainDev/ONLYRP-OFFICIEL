@@ -1,0 +1,1313 @@
+Config = {}
+
+Config.Products = {
+    -- ['Superette'] = {
+    --     [1] = {
+    --         name = "Pain", -- name in the menu
+    --         item = "bread", -- item name in database *remember that you need the item in database to work 100%*
+    --         image = "bread.png", -- image of product in html/assets
+    --         price = 50, -- price of product
+    --         type = "item" -- item or weapon
+    --     },
+    --     [2] = {
+    --         name = "Eau",
+    --         item = "water",
+    --         image = "water.png",
+    --         price = 50,
+    --         type = "item"
+    --     },
+    -- },
+    -- ['Ammu-Nation'] = {
+    --     [1] = {
+    --         name = "Chargeur",
+    --         item = "chargeur",
+    --         image = "chargeur.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [2] = {
+    --         name = "Billard",
+    --         item = "weapon_poolcue",
+    --         image = "weapon_poolcue.png",
+    --         price = 15000,
+    --         type = "weapon"
+    --     },
+    --     [3] = {
+    --         name = "Americain",
+    --         item = "weapon_knuckle",
+    --         image = "weapon_knuckle.png",
+    --         price = 15000,
+    --         type = "weapon"
+    --     },
+    --     [4] = {
+    --         name = "Couteau",
+    --         item = "weapon_knife",
+    --         image = "weapon_knife.png",
+    --         price = 15000,
+    --         type = "weapon"
+    --     },
+    --     [5] = {
+    --         name = "Hache Combat",
+    --         item = "weapon_battleaxe",
+    --         image = "weapon_battleaxe.png",
+    --         price = 15000,
+    --         type = "weapon"
+    --     },
+    --     [6] = {
+    --         name = "Pistolet",
+    --         item = "weapon_pistol",
+    --         image = "weapon_pistol.png",
+    --         price = 380000,
+    --         type = "weapon"
+    --     },
+    --     [7] = {
+    --         name = "Revolver",
+    --         item = "weapon_revolver",
+    --         image = "weapon_revolver.png",
+    --         price = 450000,
+    --         type = "weapon"
+    --     },
+    -- },
+    -- ['SuperetteRestaurant'] = {
+    --     [1] = {
+    --         name = "Pizza Margherita",
+    --         item = "pizza_marg",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [2] = {
+    --         name = "Pizza Napolitaine",
+    --         item = "pizza_napo",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [3] = {
+    --         name = "Calzone",
+    --         item = "pizza_calz",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [4] = {
+    --         name = "Pizza Cannibal",
+    --         item = "pizza_cannibal",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [5] = {
+    --         name = "Pizza Halal",
+    --         item = "pizza_halal",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [6] = {
+    --         name = "Pizza Savoyarde",
+    --         item = "pizza_sav",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [7] = {
+    --         name = "Pizza Orientale",
+    --         item = "pizza_orien",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [8] = {
+    --         name = "Pizza Calabrèse",
+    --         item = "pizza_cala",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [9] = {
+    --         name = "Pizza Quatre Fromage",
+    --         item = "pizza_quatrefro",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [10] = {
+    --         name = "Pizza Regina",
+    --         item = "pizza_regina",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [11] = {
+    --         name = "Pizza Forestière",
+    --         item = "pizza_forest",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [12] = {
+    --         name = "Pizza Nutella",
+    --         item = "pizza_nut",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [13] = {
+    --         name = "Pizza Végétarienne",
+    --         item = "pizza_veggie",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [14] = {
+    --         name = "Spaghettis Bolo",
+    --         item = "pate_bolo",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [15] = {
+    --         name = "Penne Allarrabiata",
+    --         item = "pate_allarab",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [16] = {
+    --         name = "Lasagne Bolo",
+    --         item = "lasagneb",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [17] = {
+    --         name = "Fruits de Mer",
+    --         item = "fruitsdemer",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [18] = {
+    --         name = "Salade Burrata",
+    --         item = "saladebur",
+    --         image = "pizza.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [19] = {
+    --         name = "Burger",
+    --         item = "burger",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [20] = {
+    --         name = "Chicken Burger",
+    --         item = "burgerpoulet",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [21] = {
+    --         name = "Triple Cheese",
+    --         item = "triplecheese",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [22] = {
+    --         name = "Double Cheese",
+    --         item = "doublecheese",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [23] = {
+    --         name = "280 Burger",
+    --         item = "280burger",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [24] = {
+    --         name = "Nuggets de poulet",
+    --         item = "nuggetspoul",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [25] = {
+    --         name = "Nuggets de boeuf",
+    --         item = "nuggetsboeuf",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [26] = {
+    --         name = "Wraps au Poulet",
+    --         item = "wrapspoulet",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [27] = {
+    --         name = "Hot Dog",
+    --         item = "hotdog",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [28] = {
+    --         name = "280 Burger",
+    --         item = "280burger",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [29] = {
+    --         name = "Nuggets de poulet",
+    --         item = "nuggetspoul",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [30] = {
+    --         name = "Nuggets de boeuf",
+    --         item = "nuggetsboeuf",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [31] = {
+    --         name = "Wraps au Poulet",
+    --         item = "wrapspoulet",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [32] = {
+    --         name = "Onions Rings",
+    --         item = "onionring",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [33] = {
+    --         name = "Fish n Chips",
+    --         item = "fishnchips",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [34] = {
+    --         name = "Petites Frites",
+    --         item = "frites_petit",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [35] = {
+    --         name = "Moyennes Frites",
+    --         item = "frites_moyen",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [36] = {
+    --         name = "Grandes Frites",
+    --         item = "frites_grand",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [37] = {
+    --         name = "Cheeseburger",
+    --         item = "cheeseburger",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [38] = {
+    --         name = "Croque LSCity",
+    --         item = "croquemonsieur",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [39] = {
+    --         name = "Bacon Burger",
+    --         item = "baconburger",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [40] = {
+    --         name = "Cheese Dog",
+    --         item = "cheesedog",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [41] = {
+    --         name = "Sandwitch Veggie",
+    --         item = "veggiesandwitch",
+    --         image = "burger.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [42] = {
+    --         name = "Nouilles",
+    --         item = "nouilles",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [43] = {
+    --         name = "Nems",
+    --         item = "nems",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [44] = {
+    --         name = "Ramen",
+    --         item = "ramennat",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [45] = {
+    --         name = "Ramen Poulet",
+    --         item = "ramenpoulet",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [46] = {
+    --         name = "Ramen Canard",
+    --         item = "ramencanard",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [47] = {
+    --         name = "Ramen Legume",
+    --         item = "ramenlegume",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [48] = {
+    --         name = "Ramen Soja",
+    --         item = "ramensoja",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [49] = {
+    --         name = "Poke Bowl Thon",
+    --         item = "pokebowlthon",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [50] = {
+    --         name = "Poke Bowl Saumon",
+    --         item = "pokebowlsaumon",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [51] = {
+    --         name = "Poke Bowl Veggie",
+    --         item = "pokebowlveggie",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [52] = {
+    --         name = "Yakitori Boeuf Fromage",
+    --         item = "yakitoriboefro",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [53] = {
+    --         name = "Yakitori Saumon",
+    --         item = "yakitorisaum",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [54] = {
+    --         name = "Yakitori Poulet",
+    --         item = "yakitoripoulet",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [55] = {
+    --         name = "Gyosa",
+    --         item = "gyosa",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [56] = {
+    --         name = "Sushi Saumon",
+    --         item = "sushisaumon",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [57] = {
+    --         name = "Sushi Daurade",
+    --         item = "sushidaurade",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [58] = {
+    --         name = "Sushi Crevette",
+    --         item = "sushicrev",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [59] = {
+    --         name = "Sushi Thon",
+    --         item = "sushithon",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [60] = {
+    --         name = "Maki Saumon",
+    --         item = "makisaumon",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [61] = {
+    --         name = "Maki Fromage",
+    --         item = "makifromage",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [62] = {
+    --         name = "Maki Avocat",
+    --         item = "makiavocat",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [63] = {
+    --         name = "Tempura",
+    --         item = "tempura",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [64] = {
+    --         name = "Sashimi Saumon",
+    --         item = "sashimisaumon",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [65] = {
+    --         name = "Sashimi Thon",
+    --         item = "sashimithon",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [66] = {
+    --         name = "Soupe Miso",
+    --         item = "soupemiso",
+    --         image = "asiat.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [67] = {
+    --         name = "Donuts",
+    --         item = "donuts",
+    --         image = "patisserie.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [68] = {
+    --         name = "Haribo Coca",
+    --         item = "haribococa",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [69] = {
+    --         name = "Cupcake",
+    --         item = "cupcake",
+    --         image = "patisserie.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [70] = {
+    --         name = "Fraise Tagada",
+    --         item = "fraisetagada",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [71] = {
+    --         name = "Schtroumpfs",
+    --         item = "schtroumpfs",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [72] = {
+    --         name = "Haribo Croco",
+    --         item = "haribocroco",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [73] = {
+    --         name = "Dragibus",
+    --         item = "dragibus",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [74] = {
+    --         name = "Chamallows",
+    --         item = "chamallows",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [75] = {
+    --         name = "Reglisse",
+    --         item = "reglisse",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [76] = {
+    --         name = "Jelly Belly",
+    --         item = "jellybelly",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [77] = {
+    --         name = "Boule de Mamouth",
+    --         item = "boulemamouth",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [78] = {
+    --         name = "Smarties",
+    --         item = "smarties",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [79] = {
+    --         name = "Malabar",
+    --         item = "malabar",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [80] = {
+    --         name = "M&Ms",
+    --         item = "mnms",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [81] = {
+    --         name = "Mentos",
+    --         item = "mentos",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [82] = {
+    --         name = "Mars",
+    --         item = "mars",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [83] = {
+    --         name = "Twix",
+    --         item = "twix",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [84] = {
+    --         name = "Nuttela B Ready",
+    --         item = "bready",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [85] = {
+    --         name = "Tete Brulé",
+    --         item = "tetebrule",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [86] = {
+    --         name = "Chupa Chups",
+    --         item = "chupachups",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [87] = {
+    --         name = "Crunch",
+    --         item = "crunch",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [88] = {
+    --         name = "Arlequin",
+    --         item = "arlequin",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [89] = {
+    --         name = "KitKat",
+    --         item = "kitkat",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [90] = {
+    --         name = "Maltesers",
+    --         item = "maltesers",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [91] = {
+    --         name = "Oreo",
+    --         item = "oreo",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [92] = {
+    --         name = "Tobleron",
+    --         item = "tobleron",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [93] = {
+    --         name = "Bounty",
+    --         item = "bounty",
+    --         image = "bonbons.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [94] = {
+    --         name = "IceTea Citron",
+    --         item = "icetea_lemon",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [95] = {
+    --         name = "Sprite",
+    --         item = "sprite",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [96] = {
+    --         name = "Caprisun",
+    --         item = "caprisun",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [97] = {
+    --         name = "Diabolo Grenadine",
+    --         item = "diabolo",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [98] = {
+    --         name = "Dr Pepper",
+    --         item = "drpepper",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [99] = {
+    --         name = "Bubbletea",
+    --         item = "bubbletea",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [100] = {
+    --         name = "7up",
+    --         item = "7up",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [101] = {
+    --         name = "7up Mojito",
+    --         item = "7up_mojito",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [102] = {
+    --         name = "Sumol",
+    --         item = "sumol",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [103] = {
+    --         name = "Coca Cola",
+    --         item = "cocacola",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [104] = {
+    --         name = "Coca Vanille",
+    --         item = "cocavanille",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [105] = {
+    --         name = "Coca Citron",
+    --         item = "cocacitron",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [106] = {
+    --         name = "Fanta",
+    --         item = "fanta",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [107] = {
+    --         name = "Fanta Citron",
+    --         item = "fantacitron",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [108] = {
+    --         name = "Fanta Raisin",
+    --         item = "fantaraisin",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [109] = {
+    --         name = "Ice Tea",
+    --         item = "icetea",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [110] = {
+    --         name = "Oasis",
+    --         item = "oasis",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [111] = {
+    --         name = "Oasis Framboise",
+    --         item = "oasisframb",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [112] = {
+    --         name = "Orangina",
+    --         item = "orangina",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [113] = {
+    --         name = "Orangina Rouge",
+    --         item = "oranginared",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [114] = {
+    --         name = "Pepsi",
+    --         item = "pepsi",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [115] = {
+    --         name = "Pepsi Max",
+    --         item = "pepsimax",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [116] = {
+    --         name = "Green Ice Tea",
+    --         item = "greenicetea",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [117] = {
+    --         name = "Maytea Peche",
+    --         item = "mayteapeach",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [118] = {
+    --         name = "Maytea Menthe",
+    --         item = "mayteamint",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [119] = {
+    --         name = "Schweppes Agrum",
+    --         item = "Schweppesagr",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [120] = {
+    --         name = "Pulco Citron",
+    --         item = "pulcocitron",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [121] = {
+    --         name = "Jus Dorange",
+    --         item = "orangejuice",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [122] = {
+    --         name = "RedBull",
+    --         item = "redbull",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [123] = {
+    --         name = "Monster",
+    --         item = "monster",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [124] = {
+    --         name = "Jus de Pomme",
+    --         item = "applejuice",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    --     [125] = {
+    --         name = "Jus dananas",
+    --         item = "pineapplejuice",
+    --         image = "canette.png",
+    --         price = 150,
+    --         type = "item"
+    --     },
+    -- },
+    -- ['AlcoolRestaurant'] = {
+    --     [1] = {
+    --         name = "Bière 1664",
+    --         item = "1664",
+    --         image = "biere.png",
+    --         price = 100,
+    --         type = "item"
+    --     },
+    --     [2] = {
+    --         name = "Bière 86",
+    --         item = "86",
+    --         image = "biere.png",
+    --         price = 100,
+    --         type = "item"
+    --     },
+    --     [3] = {
+    --         name = "Belvedere",
+    --         item = "belvedere",
+    --         image = "vodka.png",
+    --         price = 400,
+    --         type = "item"
+    --     },
+    --     [4] = {
+    --         name = "Ciroc",
+    --         item = "ciroc",
+    --         image = "vodka.png",
+    --         price = 300,
+    --         type = "item"
+    --     },
+    --     [5] = {
+    --         name = "Chivas 12ans",
+    --         item = "chivas12",
+    --         image = "whisky.png",
+    --         price = 400,
+    --         type = "item"
+    --     },
+    --     [6] = {
+    --         name = "Ricard",
+    --         item = "ricard",
+    --         image = "alcool.png",
+    --         price = 300,
+    --         type = "item"
+    --     },
+    --     [7] = {
+    --         name = "Captain Morgan",
+    --         item = "captainmo",
+    --         image = "alcool.png",
+    --         price = 300,
+    --         type = "item"
+    --     },
+    --     [8] = {
+    --         name = "jackdaniels",
+    --         item = "Jack Daniels",
+    --         image = "whisky.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [9] = {
+    --         name = "Whisky Grants",
+    --         item = "grants",
+    --         image = "whisky.png",
+    --         price = 400,
+    --         type = "item"
+    --     },
+    --     [10] = {
+    --         name = "Whisky Dalmore",
+    --         item = "dalmore",
+    --         image = "whisky.png",
+    --         price = 300,
+    --         type = "item"
+    --     },
+    --     [11] = {
+    --         name = "Whisky Nikka",
+    --         item = "nikka",
+    --         image = "whisky.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [12] = {
+    --         name = "Chivas 21ans",
+    --         item = "chivas21",
+    --         image = "whisky.png",
+    --         price = 600,
+    --         type = "item"
+    --     },
+    --     [13] = {
+    --         name = "Whisky Aberlour",
+    --         item = "aberlour",
+    --         image = "whisky.png",
+    --         price = 400,
+    --         type = "item"
+    --     },
+    --     [14] = {
+    --         name = "Rhum Kraken",
+    --         item = "krakenrhum",
+    --         image = "alcool.png",
+    --         price = 300,
+    --         type = "item"
+    --     },
+    --     [15] = {
+    --         name = "Rhum Don Papa",
+    --         item = "donpapa",
+    --         image = "alcool.png",
+    --         price = 300,
+    --         type = "item"
+    --     },
+    --     [16] = {
+    --         name = "Mojito",
+    --         item = "mojito",
+    --         image = "alcool.png",
+    --         price = 100,
+    --         type = "item"
+    --     },
+    --     [17] = {
+    --         name = "Bumbu rhum Xo",
+    --         item = "bumburhumxo",
+    --         image = "alcool.png",
+    --         price = 300,
+    --         type = "item"
+    --     },
+    --     [18] = {
+    --         name = "GreyGoose",
+    --         item = "greygoose",
+    --         image = "vodka.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [19] = {
+    --         name = "Cognac Camus",
+    --         item = "cognaccamus",
+    --         image = "alcool.png",
+    --         price = 400,
+    --         type = "item"
+    --     },
+    --     [20] = {
+    --         name = "Paix Dieu",
+    --         item = "paixdieu",
+    --         image = "biere.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [21] = {
+    --         name = "Duvel",
+    --         item = "duvel",
+    --         image = "biere.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [22] = {
+    --         name = "Chimay Bleu",
+    --         item = "chimaybleu",
+    --         image = "biere.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [23] = {
+    --         name = "Chimay Rouge",
+    --         item = "chimayrouge",
+    --         image = "biere.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [24] = {
+    --         name = "Rince Cochon",
+    --         item = "rincecochon",
+    --         image = "biere.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [25] = {
+    --         name = "Rhum Orange",
+    --         item = "rhumorange",
+    --         image = "biere.png",
+    --         price = 100,
+    --         type = "item"
+    --     },
+    --     [26] = {
+    --         name = "Rhum Coca",
+    --         item = "rhumcoca",
+    --         image = "alcool.png",
+    --         price = 100,
+    --         type = "item"
+    --     },
+    --     [27] = {
+    --         name = "Vodka Redbull",
+    --         item = "vodkaredbull",
+    --         image = "vodka.png",
+    --         price = 100,
+    --         type = "item"
+    --     },
+    --     [28] = {
+    --         name = "Vodka Orange",
+    --         item = "vodkaorange",
+    --         image = "vodka.png",
+    --         price = 100,
+    --         type = "item"
+    --     },
+    --     [29] = {
+    --         name = "Sake",
+    --         item = "sake",
+    --         image = "alcool.png",
+    --         price = 500,
+    --         type = "item"
+    --     },
+    --     [30] = {
+    --         name = "Champagne",
+    --         item = "champagne",
+    --         image = "alcool.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [31] = {
+    --         name = "Don Perignon",
+    --         item = "donperignon",
+    --         image = "alcool.png",
+    --         price = 1000,
+    --         type = "item"
+    --     },
+    --     [32] = {
+    --         name = "Moet Chandon",
+    --         item = "moetchandon",
+    --         image = "alcool.png",
+    --         price = 5000,
+    --         type = "item"
+    --     },
+    --     [33] = {
+    --         name = "Cognac",
+    --         item = "cognac",
+    --         image = "alcool.png",
+    --         price = 400,
+    --         type = "item"
+    --     },
+    --     [34] = {
+    --         name = "Gin",
+    --         item = "gin",
+    --         image = "alcool.png",
+    --         price = 300,
+    --         type = "item"
+    --     },
+    --     [35] = {
+    --         name = "Manzana",
+    --         item = "manzana",
+    --         image = "alcool.png",
+    --         price = 100,
+    --         type = "item"
+    --     },
+    --     [36] = {
+    --         name = "Vin Blanc",
+    --         item = "vinblanc",
+    --         image = "alcool.png",
+    --         price = 300,
+    --         type = "item"
+    --     },
+    --     [37] = {
+    --         name = "Vin Rouge",
+    --         item = "vinrouge",
+    --         image = "alcool.png",
+    --         price = 300,
+    --         type = "item"
+    --     },
+    --     [38] = {
+    --         name = "Vin Rose",
+    --         item = "vinrose",
+    --         image = "alcool.png",
+    --         price = 300,
+    --         type = "item"
+    --     },
+    --     [39] = {
+    --         name = "Pina Colada",
+    --         item = "pinacolada",
+    --         image = "alcool.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [40] = {
+    --         name = "Jager Bomb",
+    --         item = "jagerbomb",
+    --         image = "alcool.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [41] = {
+    --         name = "Shot",
+    --         item = "shot",
+    --         image = "alcool.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [42] = {
+    --         name = "Get 27",
+    --         item = "get27",
+    --         image = "alcool.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [43] = {
+    --         name = "Limoncello",
+    --         item = "limoncello",
+    --         image = "alcool.png",
+    --         price = 200,
+    --         type = "item"
+    --     },
+    --     [44] = {
+    --         name = "Irish Coffe",
+    --         item = "irishcoffe",
+    --         image = "alcool.png",
+    --         price = 100,
+    --         type = "item"
+    --     },
+    -- },
+    -- ['bewery'] = {
+    --     [1] = {
+    --         name = "Vodka",
+    --         item = "vodka",
+    --         image = "vodka.png",
+    --         price = 50,
+    --         type = "item"
+    --     },    
+    -- },
+    -- ['DigitalDen'] = {
+    --     [1] = {
+    --         name = "Téléphone",
+    --         item = "phone",
+    --         image = "phone.png",
+    --         price = 1000,
+    --         type = "item"
+    --     },
+    --     [2] = {
+    --         name = "Radio",
+    --         item = "radio",
+    --         image = "radio.png",
+    --         price = 1500,
+    --         type = "item"
+    --     },
+    --     [3] = {
+    --         name = "Radio Portative",
+    --         item = "radiobox",
+    --         image = "radiobox.png",
+    --         price = 10000,
+    --         type = "item"
+    --     },
+    -- },
+    -- ['Pharmacie'] = {
+    --     [1] = {
+    --         name = "Bandage",
+    --         item = "bandage",
+    --         image = "bandage.png",
+    --         price = 2500,
+    --         type = "item"
+    --     },
+    --     [2] = {
+    --         name = "Kit de Soin",
+    --         item = "medikit",
+    --         image = "medikit.png",
+    --         price = 4000,
+    --         type = "item"
+    --     },
+    --     [3] = {
+    --         name = "Défibrilateur",
+    --         item = "defibrillateur",
+    --         image = "defibrillateur.png",
+    --         price = 50000,
+    --         type = "item"
+    --     },
+    -- },
+}

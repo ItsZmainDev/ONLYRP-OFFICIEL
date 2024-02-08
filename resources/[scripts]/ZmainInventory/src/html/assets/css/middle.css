@@ -1,0 +1,113 @@
+.center-part {
+    position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 27.708vw;
+	height: 45.469vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-74%, -50%);
+	margin-left: 6.667vw;
+}
+
+
+.middle-clothes-part {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 27.708vw;
+	height: 33.333vw;
+	margin-top: 0.417vw;
+}
+
+.middle-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 4.46vw;
+}
+.middle-logo img:nth-child(1) {
+	width: 8.073vw;
+	height: 8.073vw;
+}
+.middle-logo span:nth-child(2) {
+	font-size: 0.833vw;
+	margin-top: 0.833vw;
+}
+.middle-clothes-part-left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 5vw;
+	height: 33.333vw;
+	margin-left: 0vw;
+}
+.middle-clothes-part-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 5vw;
+	height: 33.333vw;
+	margin-left: 18.26vw;
+}
+
+
+.item-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 5vw;
+	height: 5vw;
+	border: 0.052vw solid var(--border-color);
+	background-color: var(--background-color);
+	margin-top: 0.417vw;
+	transition: all 0.1s ease;
+	cursor: pointer;
+}
+.item-box:hover{
+	border: 0.052vw solid var(--border-color);
+	background: var(--hover-color);
+}
+.item-box:active{
+	border: 0.052vw solid var(--border-color);
+	background: var(--active-color);
+}
+.item-box:nth-child(1) {
+	margin-top: 0;
+}
+.item-box img:nth-child(1) {
+	width: 2.604vw;
+	height: 2.604vw;
+}
+.item-box2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 5vw;
+	height: 5vw;
+	border: 0.052vw solid var(--border-color);
+	background-color: var(--background-color);
+	margin-top: 0.417vw;
+	transition: all 0.1s ease;
+	cursor: pointer;
+}
+.item-box2:hover{
+	border: 0.052vw solid var(--border-color);
+	background: var(--hover-color);
+}
+.item-box2:active{
+	border: 0.052vw solid var(--border-color);
+	background: var(--active-color);
+}
+.item-box2:nth-child(1) {
+	margin-top: 0;
+}
+.item-box2 img:nth-child(1) {
+	width: 2.604vw;
+	height: 2.604vw;
+}

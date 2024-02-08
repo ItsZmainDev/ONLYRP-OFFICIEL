@@ -1,0 +1,100 @@
+.middle-bottom-slots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 29.708vw;
+	height: 5.1vw;
+	margin-top: 0.217vw;
+}
+.middle-slot-box {
+	display: flex;
+	width: 5.1vw;
+	height: 5.1vw;
+	border: 0.052vw solid var(--border-color);
+	background-color: var(--background-color);
+	margin-top: 0.217vw;
+	margin-left: 0.617vw;
+	transition: all 0.1s ease;
+	cursor: pointer;
+}
+.middle-slot-box:hover{
+	border: 0.052vw solid var(--border-color);
+	background: var(--hover-color);
+}
+.middle-slot-box:active{
+	border: 0.052vw solid var(--border-color);
+	background: var(--active-color);
+}
+.middle-slot-box:nth-child(1) {
+	margin-left: 0;
+}
+.middle-slot-box span:nth-child(1) {
+	margin-top: 0.313vw;
+	margin-left: 0.729vw;
+}
+.middle-slot-box img:nth-child(2) {
+	position: absolute;
+	width: 4.479vw;
+	height: 1.354vw;
+	margin-top: 1.927vw;
+	margin-left: 0.365vw;
+}
+
+/* item */
+
+.slot {
+    display: flex;
+    float: left;
+    width: 5.4vw;
+    height: 5.4vw;
+    bottom: -5%;
+    color: #fff;
+    /* border: 0.078vw solid var(--background-color); */
+    background-color: var(--background-color);
+    margin: 0.15vw;
+    /* border-radius: 3%; */
+    position: relative;
+}
+
+
+.slot:hover {
+	/* border: 0.052vw solid rgba(255, 0, 107, 0.35); */
+	background: var(--hover-color);
+}
+.slot:active {
+	/* border: 0.052vw solid rgba(255, 0, 107, 0.2); */
+	background: var(--active-color);
+}
+
+.slot-name {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(33, 37, 35, 0.515);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.55vw;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 0.186vw;
+    padding-bottom: 0.417vw;
+    margin-left: -0.38vw;
+    width: 5.1vw;
+    min-height: 0.15vw;
+    z-index: 500
+}
+
+.ui-draggable-dragging .slot-name  {
+    display: none
+}
+
+.slot-count {
+    position: absolute;
+    text-align: left;
+    font-family:var(--font-family);                               
+    width: 1.342vw;
+    margin-top: 0.05vw;
+    margin-left: 0.05vw;
+    height: 1.342vw;
+    color: rgb(255, 255, 255);
+    z-index: 500;
+    font-size: 0.65vw;
+}

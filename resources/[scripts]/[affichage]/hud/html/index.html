@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wais - Hud</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css' crossorigin='anonymous' />
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@18657a9/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!-- JQuery -->
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+</head>
+<body>
+
+    <div class="top" style="display: none;"></div>
+    <div class="bottom" style="display: none;"></div>
+
+    <!-- <div class="huds"> -->
+        <div class="hud" data-type="mic">
+            <i id="mica" class="fa-solid fa-microphone-lines"></i>
+            <i id="micd" class="fa-solid fa-microphone-lines-slash"></i>
+        </div>
+        <div class="hud" data-type="healt">
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="hud" data-type="armour">
+            <i class="fa-solid fa-shield"></i>
+        </div>
+        <div class="hud" data-type="hunger">
+            <i class="fa-solid fa-hamburger"></i>
+        </div>
+        <div class="hud" data-type="thrist">
+            <i class="fa-solid fa-droplet"></i>
+        </div>
+        <!-- <div class="hud" data-type="alcool">
+            <i class="fa-solid fa-glass"></i>
+        </div> -->
+        <div class="hud" data-type="oxygen">
+            <i class="fa-solid fa-lungs"></i>
+        </div>
+    <!-- </div> -->
+
+    <div class="carhud">
+        <svg viewBox="0 0 270 270">
+            <defs>
+                <filter id="shadow">
+                    <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="rgba(255, 255, 255, 0.25)" />
+                </filter>
+            </defs>
+            <circle r="120" cx="135" cy="135" id="speed-background"></circle>
+            <circle r="120" cx="135" cy="135" id="speed-progress" filter="url(#shadow)"></circle>
+
+            <circle r="100" cx="135" cy="135" id="rpm-background"></circle>
+            <circle r="100" cx="135" cy="135" id="rpm-progress" filter="url(#shadow)"></circle>
+
+            <circle r="120" cx="135" cy="135" id="fuel-background"></circle>
+            <circle r="120" cx="135" cy="135" id="fuel-progress" filter="url(#shadow)"></circle>
+        </svg>
+        <div class="gear">
+            <span id="gear">3</span>
+        </div>
+        <div class="kmh">
+            <span id="kmh">178</span>
+            <span>km/h</span>
+        </div>
+        <div class="carprop1">
+            <img id="belt" src="/html/img/belt.png">
+            <img id="breake" style="width: 21%;" src="/html/img/handbrake.png">
+        </div>
+        <div class="carprop2">
+            <img id="engine" style="width: 20%;" src="/html/img/engine.png">
+            <img id="door"   style="width: 15%;" src="/html/img/door.png">
+            <img id="light" style="width: 20%;" src="/html/img/light.png">
+        </div>
+        <div class="fuel">
+            <img id="fuelimg" src="/html/img/fuel.png">
+            <span id="fuel">61%</span>
+        </div>
+        <div class="damage">
+            <i id="cardamagei" class="fa-solid fa-wrench"></i>
+            <span id="cardamage" >90%</span>
+        </div>
+    </div>
+        
+    <div class="menu">
+        <div class="menu-header">
+            <span>Paramètres HUD</span>
+        </div>
+        <div class="option">
+            <h2>Réinitialisation</h2>
+            <span>Rénitialiser les positions/couleurs</span>
+            <button id="res">Réinitialiser</button>
+        </div>
+        <div class="cizgi"></div>
+        <div class="optionss">
+            <h2>Couleurs HUD</h2>
+            <div class="selects">
+                <div class="coloroption">
+                    <span>Couleur de la bar du Microphone</span>
+                    <input type="color" id="mic" value="#000000">
+                </div>
+                <div class="coloroption">
+                    <span>Couleur de la vie</span>
+                    <input type="color" id="healt" value="#000000">
+                </div>
+                <div class="coloroption">
+                    <span>Couleur de la bar d'armure</span>
+                    <input type="color" id="armour" value="#000000">
+                </div>
+                <div class="coloroption">
+                    <span>Couleur de la bar de Nourriture</span>
+                    <input type="color" id="hunger" value="#000000">
+                </div>
+                <div class="coloroption">
+                    <span>Couleur de la bar de Soif</span>
+                    <input type="color" id="thrist" value="#000000">
+                </div>
+
+                <div class="coloroption">
+                    <span>Couleur de la bar d'alcool</span>
+                    <input type="color" id="alcool" value="#000000">
+                </div>
+
+                <div class="coloroption">
+                    <span>Couleur de la bar d'oxygène</span>
+                    <input type="color" id="oxygen" value="#000000">
+                </div>
+            </div>
+        </div>
+        <div class="cizgi"></div>
+        <div class="option">
+            <h2>Gestion de la Map</h2>
+            <label class="checkbox">
+                <input type="checkbox" id="checkbox" data-input="map">
+                <span>Rond/Carré</span>
+            </label> 
+        </div>
+        <div class="cizgi"></div>
+        <div class="option">
+            <h2>Mode Cinématique</h2>
+            <label class="checkbox">
+                <input type="checkbox" id="checkbox" data-input="cinematic">
+                <span>Activer/Désactiver</span>
+            </label> 
+        </div>
+        <div class="cizgi"></div>
+    </div>
+
+    <script src="/html/progressbar.js"></script>
+    <script src="/html/progressbar.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

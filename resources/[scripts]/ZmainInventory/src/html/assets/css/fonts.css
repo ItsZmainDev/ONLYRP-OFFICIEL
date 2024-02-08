@@ -1,0 +1,18 @@
+@font-face { 
+    font-family: 'Black';
+    src: url('../fonts/PPMonumentExtended-Black-BF645465a1e687b.otf'); 
+}
+@font-face { 
+  font-family: regular;
+  src: url('../fonts/PPMonumentExtended-Regular-BF645465a253250.otf'); 
+}
+@font-face {
+	font-family: 'Signature';
+	src: url('../fonts/signature.ttf');
+}
+
+@font-face {
+  font-family: justsignature;
+  src: url('../fonts/justsignature/JustSignature.woff');
+}
+

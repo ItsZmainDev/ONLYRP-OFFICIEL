@@ -1,0 +1,31 @@
+.loading-bar-kg-left-part {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 28.2vw;
+	height: 1.875vw;
+    margin: 0.15vw;
+}
+.text-loading-bar-left-part {
+    display: flex;
+	font-size: 0.833vw;
+	color: #ffff;
+}
+.text-loading-bar-left-part span:nth-child(2) {
+    margin-left: auto;
+}
+
+.novalue-left-part {
+	display: flex;
+	align-items: center;
+	width: 28.2vw;
+	height: 0.621vw;
+	background: var(--background-color);
+	margin-top: 0.313vw;
+}
+.value-left-part {
+	/* width: 27vw; */
+	height: 0.621vw;
+	background: var(--border-color);
+	animation: width 3s ease;
+}

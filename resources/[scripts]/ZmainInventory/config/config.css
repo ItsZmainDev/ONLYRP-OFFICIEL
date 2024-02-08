@@ -1,0 +1,8 @@
+:root {
+    --border-color: rgba(184, 182, 182, 0.992);
+    --active-color: rgba(184, 182, 182, 0.992);
+    --hover-color: rgba(59, 59, 59, 0.619);
+    --background-color:rgba(73, 72, 72, 0.619);
+    --font-family:'SF Pro Display', sans-serif;
+
+}

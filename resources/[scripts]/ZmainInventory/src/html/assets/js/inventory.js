@@ -1,1 +1,918 @@
-var _0x3e4bed = _0x142f; (function (_0x2e40fe, _0x346f30) { var _0x8fe93f = _0x142f, _0xdedeb8 = _0x2e40fe(); while (!![]) { try { var _0x4a3355 = parseInt(_0x8fe93f(0x177)) / 0x1 + parseInt(_0x8fe93f(0x245)) / 0x2 + -parseInt(_0x8fe93f(0x1ee)) / 0x3 * (-parseInt(_0x8fe93f(0x19d)) / 0x4) + parseInt(_0x8fe93f(0x20a)) / 0x5 * (-parseInt(_0x8fe93f(0x197)) / 0x6) + parseInt(_0x8fe93f(0x1aa)) / 0x7 + parseInt(_0x8fe93f(0x19e)) / 0x8 * (parseInt(_0x8fe93f(0x1ec)) / 0x9) + -parseInt(_0x8fe93f(0x194)) / 0xa; if (_0x4a3355 === _0x346f30) break; else _0xdedeb8['push'](_0xdedeb8['shift']()); } catch (_0x22e292) { _0xdedeb8['push'](_0xdedeb8['shift']()); } } }(_0x435b, 0xefbfd)); var type = 'normal', disabled = ![]; function _0x435b() { var _0x56bb9b = [')\x22><div\x20class=\x22item-count\x22>', '492YrbhqW', '#renameItem', 'show', '#icon', 'weight', 'appendChild', 'item_weapon', '#notifydef-', '#button\x5c.closeIdCard', 'clothe', 'slot', 'thirst', 'info', 'http://ZmainInventory/PutIntoFast', 'each', 'http://ZmainInventory/cancel', 'http://ZmainInventory/TakeFromVault', 'trim', 'ItemNotify', 'includes', 'http://ZmainInventory/TakeFromProperty', 'value', '#itemFast-2', 'isArray', 'http://ZmainInventory/giveCard', '0.104vw\x20solid\x20', 'fast', 'hide', '14725UKoswI', 'action', '_key.png\x22\x20alt=\x22\x22>', 'substr', 'ui.dialog', '.title', 'all', ':focus', 'http://ZmainInventory/TakeFromTrunk', '</span><span\x20style=\x22color:\x20', '#keyboard-input', '#drop', 'http://ZmainInventory/renameItem', 'hidden', 'vault', 'updateSlot', '#ArmorIndicator', 'close', 'setItems', 'which', 'inventory', 'tooltip', 'true', 'http://ZmainInventory/category', 'Inv:WeightBarText', 'clone', 'https://cdn.discordapp.com/attachments/979486375218937946/1133070614022852608/image_2023-07-24_181738854-removebg-preview.png', 'http://ZmainInventory/TakeFromPlayer', '</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22progress-bar-notifi-without-icon\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20', 'style', '</div><div\x20class=\x22item-name\x22>', '#itemOther-', '#left-inventory', 'click', 'now', 'type', '<span\x20style=\x22', 'clickOutsideTrigger', '#sex', 'normal', 'hoverControl', 'eventNamespace', 'item_idcard', 'head', '</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22notify-with-icon-count\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>', '.item', '#weightCoffre', 'background-image', 'information', '#type', 'uiDialog', '.progress-bar-notifi-without-icon', 'close:MenuIdCard', 'remove', 'createElement', 'data', 'weightTrunk', '.middle-clothes-part-right\x20.item-box2', '#plate', '3409090jCcPyi', 'length', 'none', '\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22notify-with-icon\x22\x20id=\x22notify-', 'limit', '#use', '#button\x5c.raccourci-3', 'css', 'plate', '#ThirstIndicator', ':visible', '#button\x5c.raccourci-1', '\x22\x20class=\x22item\x22></div><div\x20class=\x22item-name-bg\x22></div></div>', 'removeClass', 'click.ui.dialogClickOutside', 'activeHud', '.menu', 'width', '#deleteItem', '<div\x20class=\x22item-info\x22><div\x20id=\x22itemOther-', 'body', 'firstname', 'http://ZmainInventory/TakeFromFast', 'number', 'fastItems', 'prepend', 'main', 'color', 'itemList', '#textArea', 'items\x20n\x27est\x20pas\x20un\x20tableau', '.info_ui', 'player', '\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-notify-without-icon\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22notify-without-icon-text\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>', '#hudSetting', 'post', 'http://ZmainInventory/PutIntoTrunk', 'attr', 'close:Input', '#button\x5c.valider', '569946frpKbV', 'setSecondInventoryItems', 'find', 'message', 'getElementById', 'InvHud', 'text', '#signature', 'count', '.iconNotif', 'second', ')\x22>', '#id-card', 'itemTrunk', 'close:idCard', 'usable', 'http://ZmainInventory/PutIntoProperty', '</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20', '<div\x20class=\x22middle-slot-box\x22\x20id\x22itemDescr-', 'easeInOut', 'animate', 'mousedown', 'open:MenuIdCard', '<div\x20id=\x22itemFast-', '#itemFast-3', 'maxWeight', '_super', 'error', '#dob', '35464480RumzgC', 'textArea', 'height', '462JdBYaZ', 'replace', 'dialog', '#rename', 'target', 'sex', '25492zsWanL', '664PCEDxq', '<div\x20class=\x22slot-name\x22>', '<div\x20class=\x22item-info\x22><div\x20id=\x22item-', '#weightBar', '\x22\x20alt=\x22\x22>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22notify-with-icon-text\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>', 'image', 'crMenu', 'options', '.idcard-container:after\x20{\x20border-bottom:\x200.154vw\x20solid\x20', '#give', 'abs', 'http://ZmainInventory/removeClothes', '5276026Rsdoam', 'draggable', '<img\x20class=\x22slot-count\x22\x20src=\x22assets/icons/', 'CloseKey', 'title', 'http://ZmainInventory/PutIntoVault', 'armor', 'innerHTML', '#itemFast-4', 'open:Inv', 'hunger', '#HungerIndicator', 'item', 'undefined', '#useItem', 'droppable', '.middle-bottom-slots', ';\x20}', '</div>', 'textTrunk', 'addEventListener', '.form-inv', 'stringify', 'ready', 'clickOutside', 'colorHud', 'dateofbirth', '.notification', 'preventDefault', 'property', '</span><span\x20style=\x22', '#height', 'weapon', 'html', '#HealthIndicator', 'https://cdn.discordapp.com/attachments/1008837979894198413/1129138995301994606/togo_box.png', 'assets/icons/picture.png', 'src', 'lastname', 'ZmainInventory', 'Circle', 'rgb(80,\x2080,\x2080)', 'display', '</div></div><div\x20class=\x22item-name-bg\x22></div></div>', 'custom-tooltip', 'off', '#dialog', 'http://ZmainInventory/itemUsable', 'maxWeightTrunk', '#item-', 'label', '</span>', '#right-inventory', 'onkeyup', 'open:Input', '\x22\x20class=\x22item\x22\x20style\x20=\x20\x22background-image:\x20url(', 'url(', 'closest', '#itemFast-1', '#giveItem', '#picture', 'append', 'disabled', '#itemFast-', 'close:Inv', 'addClass', '73935CsmmHG']; _0x435b = function () { return _0x56bb9b; }; return _0x435b(); } const maxWeightBarValue = 28.2; let totalSlots = 0x1e; var idcard = null, idcardType = null, idcardOpen = ![], inputValue = _0x3e4bed(0x166), inputData = {}, inventoryOpen = ![]; window[_0x3e4bed(0x1be)](_0x3e4bed(0x17a), function (_0x35ca08) { var _0x5ef58e = _0x3e4bed; const _0x1a1fd0 = $(_0x5ef58e(0x1a1)), _0x58d13e = $('#weight'), _0x4be733 = $(_0x5ef58e(0x238)), _0x162c90 = $('#weightBarCoffre'), _0x19b95b = $(_0x5ef58e(0x244)), _0x24a68e = $(_0x5ef58e(0x171)); document[_0x5ef58e(0x1df)] = function (_0x4f71c7) { var _0x2d7cbe = _0x5ef58e; _0x4f71c7[_0x2d7cbe(0x21d)] == 0x9 && (inventoryOpen === !![] && $[_0x2d7cbe(0x172)]('http://ZmainInventory/closeInventory', JSON[_0x2d7cbe(0x1c0)]({}))); }; if (_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x20b)] == _0x5ef58e(0x1b3)) type = _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x22d)], disabled = ![], $(_0x5ef58e(0x1bf))[_0x5ef58e(0x1f0)](), setTimeout(function () { inventoryOpen = !![]; }, 0x1f4); else { if (_0x35ca08['data'][_0x5ef58e(0x20b)] == _0x5ef58e(0x1ea)) $(_0x5ef58e(0x1d8))[_0x5ef58e(0x199)](_0x5ef58e(0x21b)), $(_0x5ef58e(0x1bf))[_0x5ef58e(0x209)](), $(_0x5ef58e(0x237))['remove'](), $(_0x5ef58e(0x255))['hide'](), _0x162c90[_0x5ef58e(0x24c)](_0x5ef58e(0x256), 0x0 + 'vw'), _0x4be733[_0x5ef58e(0x17d)](''), _0x19b95b[_0x5ef58e(0x17d)](''), inventoryOpen = ![]; else { if (_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x20b)] == _0x5ef58e(0x222)) { let _0x50f236 = maxWeightBarValue * _0x35ca08['data'][_0x5ef58e(0x1f2)] / _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x190)]; _0x1a1fd0[_0x5ef58e(0x24c)](_0x5ef58e(0x256), _0x50f236 + 'vw'), _0x58d13e[_0x5ef58e(0x17d)](_0x35ca08['data'][_0x5ef58e(0x17d)]); } else { if (_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x20b)] == _0x5ef58e(0x21c)) { inventorySetup(_0x35ca08[_0x5ef58e(0x241)]['itemList'], _0x35ca08['data'][_0x5ef58e(0x167)], _0x35ca08['data'][_0x5ef58e(0x1a4)], _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x184)]), maxWeight = _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x190)], totalWeight = _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x1f2)]; let _0x35e51d = maxWeightBarValue / maxWeight * totalWeight; _0x1a1fd0[_0x5ef58e(0x24c)](_0x5ef58e(0x256), _0x35e51d + 'vw'), _0x58d13e['text'](_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x17d)]), $(_0x5ef58e(0x16e))['attr']('data-html', _0x5ef58e(0x220))[_0x5ef58e(0x174)](_0x5ef58e(0x1ae), _U('help_interfaces'))[_0x5ef58e(0x21f)]({ 'classes': { 'ui-tooltip': _0x5ef58e(0x1d6) } }), $(_0x5ef58e(0x237))[_0x5ef58e(0x1ab)]({ 'helper': _0x5ef58e(0x223), 'appendTo': _0x5ef58e(0x163), 'zIndex': 0x1869f, 'revert': 'invalid', 'start': function (_0x5e04f3, _0x58d481) { var _0x15b21b = _0x5ef58e; if (disabled) return ![]; $(this)[_0x15b21b(0x24c)](_0x15b21b(0x239), 'none'), itemData = $(this)[_0x15b21b(0x241)]('item'), $(_0x15b21b(0x215))[_0x15b21b(0x1eb)]('disabled'), $('#give')['addClass'](_0x15b21b(0x1e8)), $(_0x15b21b(0x19a))[_0x15b21b(0x1eb)]('disabled'), $(_0x15b21b(0x24a))[_0x15b21b(0x1eb)](_0x15b21b(0x1e8)); }, 'stop': function () { var _0x91da0 = _0x5ef58e; itemData = $(this)[_0x91da0(0x241)]('item'), itemData === undefined ? image = _0x91da0(0x224) : itemData !== undefined && (image = itemData[_0x91da0(0x1a3)]), $(this)[_0x91da0(0x24c)](_0x91da0(0x239), _0x91da0(0x1e2) + image + ')'), $(_0x91da0(0x215))[_0x91da0(0x252)]('disabled'), $(_0x91da0(0x24a))[_0x91da0(0x252)](_0x91da0(0x1e8)), $(_0x91da0(0x19a))[_0x91da0(0x252)](_0x91da0(0x1e8)), $(_0x91da0(0x1a7))[_0x91da0(0x252)]('disabled'); } }); } else { if (_0x35ca08[_0x5ef58e(0x241)]['action'] == _0x5ef58e(0x178)) secondInventorySetup(_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x16b)]); else { if (_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x20b)] == _0x5ef58e(0x219)) updateSlot(_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x167)], _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x1a4)]); else { if (_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x20b)] == 'InvNotify') msg = format(_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x17a)]), NotifyDefault(msg, _0x35ca08['data']['timeout']); else { if (_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x20b)] == _0x5ef58e(0x200)) NotifyItem(_0x35ca08['data']['message'], _0x35ca08[_0x5ef58e(0x241)]['icon'], _0x35ca08['data'][_0x5ef58e(0x17f)]); else { if (_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x20b)] == _0x5ef58e(0x17c)) config[_0x5ef58e(0x254)] ? (HealthIndicator[_0x5ef58e(0x18b)](_0x35ca08[_0x5ef58e(0x241)]['hp'] / 0x64), ArmorIndicator['animate'](_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x1b0)] / 0x64), HungerIndicator[_0x5ef58e(0x18b)](_0x35ca08['data'][_0x5ef58e(0x1b4)] / 0x64), ThirstIndicator[_0x5ef58e(0x18b)](_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x1f9)] / 0x64)) : _0x24a68e['css'](_0x5ef58e(0x1d4), _0x5ef58e(0x247)); else { if (_0x35ca08['data']['action'] == _0x5ef58e(0x1e0)) inputValue = _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x203)], inputData = _0x35ca08['data']['data'], $(_0x5ef58e(0x20f))[_0x5ef58e(0x17d)](_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x1ae)]), $(_0x5ef58e(0x16c))['val'](''), $('#keyboard-input')[_0x5ef58e(0x1f0)](), setTimeout(() => { var _0x39eb4e = _0x5ef58e; $(_0x39eb4e(0x16c))['focus'](); }, 0xa); else { if (_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x20b)] == _0x5ef58e(0x175)) $[_0x5ef58e(0x172)](_0x5ef58e(0x1fd), JSON['stringify']({})), document['getElementById'](_0x5ef58e(0x195))[_0x5ef58e(0x203)] = '', $('#keyboard-input')[_0x5ef58e(0x209)](); else { if (_0x35ca08['data']['action'] == _0x5ef58e(0x18d)) idcard = _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x1fa)], idcardType = _0x35ca08['data']['type'], $(_0x5ef58e(0x255))['show'](); else { if (_0x35ca08['data']['action'] == _0x5ef58e(0x23e)) $(_0x5ef58e(0x255))['hide'](); else { if (_0x35ca08[_0x5ef58e(0x241)]['action'] == 'open:idCard') { idcardOpen = !![]; var _0x3191ba = _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x23a)], _0x4a4e8b = _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x19c)], _0x210a79 = _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x1ae)], _0x47b175 = _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x1a3)], _0x127d9f = _0x35ca08[_0x5ef58e(0x241)]['icon'], _0x1f402a = _0x35ca08['data'][_0x5ef58e(0x16a)]; $(_0x5ef58e(0x23b))['text'](_0x210a79), $('#name')[_0x5ef58e(0x17d)](_0x3191ba[_0x5ef58e(0x164)] + '\x20' + _0x3191ba[_0x5ef58e(0x1d0)]), $(_0x5ef58e(0x193))[_0x5ef58e(0x17d)](_0x3191ba[_0x5ef58e(0x1c4)]), $(_0x5ef58e(0x1c9))[_0x5ef58e(0x17d)](_0x3191ba[_0x5ef58e(0x196)] + '\x20cm'), $(_0x5ef58e(0x230))[_0x5ef58e(0x17d)](_0x4a4e8b), $(_0x5ef58e(0x1f1))[_0x5ef58e(0x174)]('src', _0x127d9f), $(_0x5ef58e(0x1e6))[_0x5ef58e(0x174)](_0x5ef58e(0x1cf), _0x47b175 || _0x5ef58e(0x1ce)), $(_0x5ef58e(0x17e))[_0x5ef58e(0x17d)](_0x3191ba['lastname']); var _0x825198 = document[_0x5ef58e(0x240)](_0x5ef58e(0x227)); _0x825198[_0x5ef58e(0x1b1)] = _0x5ef58e(0x1a6) + _0x1f402a + _0x5ef58e(0x1bb), document[_0x5ef58e(0x235)][_0x5ef58e(0x1f3)](_0x825198), $('#picture-box-setting')[_0x5ef58e(0x24c)]('border', _0x5ef58e(0x207) + _0x1f402a), $(_0x5ef58e(0x1de))['html'](''), $(_0x5ef58e(0x183))[_0x5ef58e(0x1f0)](); } else { if (_0x35ca08['data']['action'] == _0x5ef58e(0x185)) $(_0x5ef58e(0x183))[_0x5ef58e(0x209)](), idcardOpen = ![]; else { if (_0x35ca08[_0x5ef58e(0x241)]['action'] == 'trunk:WeightBarText') { let _0x618364 = maxWeightBarValue * _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x242)] / _0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x1da)]; _0x162c90[_0x5ef58e(0x24c)](_0x5ef58e(0x256), _0x618364 + 'vw'), _0x4be733[_0x5ef58e(0x17d)](_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x1bd)]), _0x19b95b[_0x5ef58e(0x17d)](_0x35ca08[_0x5ef58e(0x241)][_0x5ef58e(0x24d)]); } } } } } } } } } } } } } } } } }); function inventorySetup(_0x2564ba, _0x3b473d, _0x2eb7eb, _0x14d35e) { var _0x4165d1 = _0x3e4bed; $(_0x4165d1(0x22a))['html'](''), _0x14d35e == 'no' && $('#right-inventory')[_0x4165d1(0x1cb)](''); if (Array[_0x4165d1(0x205)](_0x2564ba)) { let _0x551048 = _0x2564ba[_0x4165d1(0x246)]; $[_0x4165d1(0x1fc)](_0x2564ba, function (_0x51eaa1, _0x5d467c) { var _0x2bcb17 = _0x4165d1; count = setCount(_0x5d467c), _0x5d467c[_0x2bcb17(0x1a3)] == undefined && (_0x5d467c[_0x2bcb17(0x1a3)] = _0x2bcb17(0x1cd)), $('#left-inventory')[_0x2bcb17(0x1e7)](_0x2bcb17(0x1a0) + _0x51eaa1 + '\x22\x20class=\x22item\x22\x20style=\x22background-image:\x20url(' + _0x5d467c[_0x2bcb17(0x1a3)] + _0x2bcb17(0x1ed) + count + _0x2bcb17(0x228) + _0x5d467c[_0x2bcb17(0x1dc)] + _0x2bcb17(0x1d5)), $(_0x2bcb17(0x1db) + _0x51eaa1)['data']('item', _0x5d467c), $('#item-' + _0x51eaa1)[_0x2bcb17(0x241)](_0x2bcb17(0x21e), _0x2bcb17(0x169)); }); for (let _0x4db624 = 0x0; _0x4db624 < totalSlots - _0x551048; _0x4db624++) { let _0x3eaa51 = _0x551048 + _0x4db624; $(_0x4165d1(0x22a))[_0x4165d1(0x1e7)](_0x4165d1(0x1a0) + _0x3eaa51 + _0x4165d1(0x251)); } if (idcardOpen == ![]) { if (_0x14d35e == 'no') for (let _0x4358a8 = 0x0; _0x4358a8 < totalSlots; _0x4358a8++) { $(_0x4165d1(0x1de))['append'](_0x4165d1(0x1a0) + _0x4358a8 + _0x4165d1(0x251)); } } } else console[_0x4165d1(0x192)](_0x4165d1(0x16d)); $(_0x4165d1(0x1ba))[_0x4165d1(0x1cb)](''); if (_0x2eb7eb == _0x4165d1(0x1b6)) { $(_0x4165d1(0x215)); var _0x759d7c; image = _0x4165d1(0x224); for (_0x759d7c = 0x1; _0x759d7c < 0x6; _0x759d7c++) { $('.middle-bottom-slots')[_0x4165d1(0x1e7)](_0x4165d1(0x189) + _0x759d7c + '\x22>' + _0x4165d1(0x1ac) + _0x759d7c + _0x4165d1(0x20c) + _0x4165d1(0x18e) + _0x759d7c + _0x4165d1(0x1e1) + image + _0x4165d1(0x182) + '</div\x20>' + '</div>'); } $[_0x4165d1(0x1fc)](_0x3b473d, function (_0x18104d, _0x36eee3) { var _0x40de52 = _0x4165d1; count = setCount(_0x36eee3), _0x36eee3[_0x40de52(0x1a3)] == undefined && (_0x36eee3[_0x40de52(0x1a3)] = _0x40de52(0x1cd)), $('#itemFast-' + _0x36eee3[_0x40de52(0x1f8)])[_0x40de52(0x1cb)](_0x40de52(0x19f) + _0x36eee3[_0x40de52(0x1dc)] + '</div>'), $('#itemFast-' + _0x36eee3[_0x40de52(0x1f8)])['css'](_0x40de52(0x239), 'url(' + _0x36eee3[_0x40de52(0x1a3)] + ')'), $(_0x40de52(0x1e9) + _0x36eee3['slot'])[_0x40de52(0x241)]('item', _0x36eee3), $(_0x40de52(0x1e9) + _0x36eee3['slot'])[_0x40de52(0x241)](_0x40de52(0x21e), _0x40de52(0x208)); }); } _0x2eb7eb == _0x4165d1(0x1f7) && $(_0x4165d1(0x215)), makeDraggables(), _0x2eb7eb == _0x4165d1(0x1b6) && $(_0x4165d1(0x215)); } function secondInventorySetup(_0x3be263) { var _0x1afae3 = _0x3e4bed; $(_0x1afae3(0x1de))[_0x1afae3(0x1cb)](''); if (Array[_0x1afae3(0x205)](_0x3be263)) { let _0x5c096d = _0x3be263[_0x1afae3(0x246)]; $[_0x1afae3(0x1fc)](_0x3be263, function (_0x55213f, _0x4ac0e1) { var _0x1ee345 = _0x1afae3; count = setCount(_0x4ac0e1), _0x4ac0e1[_0x1ee345(0x1a3)] == undefined && (_0x4ac0e1[_0x1ee345(0x1a3)] = _0x1ee345(0x1cd)), $('#right-inventory')[_0x1ee345(0x1e7)](_0x1ee345(0x162) + _0x55213f + _0x1ee345(0x1e1) + _0x4ac0e1[_0x1ee345(0x1a3)] + _0x1ee345(0x1ed) + count + _0x1ee345(0x228) + _0x4ac0e1['label'] + '</div></div><div\x20class=\x22item-name-bg\x22></div></div>'), $(_0x1ee345(0x229) + _0x55213f)[_0x1ee345(0x241)]('item', _0x4ac0e1), $(_0x1ee345(0x229) + _0x55213f)['data']('inventory', _0x1ee345(0x181)); }); for (let _0x3e0710 = 0x0; _0x3e0710 < totalSlots - _0x5c096d; _0x3e0710++) { let _0x5c9eed = _0x5c096d + _0x3e0710; $(_0x1afae3(0x1de))['append'](_0x1afae3(0x162) + _0x5c9eed + '\x22\x20class=\x22item\x22></div><div\x20class=\x22item-name-bg\x22></div></div>'); } } else console[_0x1afae3(0x192)](_0x1afae3(0x16d)); } function updateSlot(_0x3b82c4, _0x2d39f9) { var _0x13c87b = _0x3e4bed; $('.middle-bottom-slots')[_0x13c87b(0x1cb)](''); if (_0x2d39f9 == 'item') { $('#drop'); var _0x27f3b8; image = _0x13c87b(0x224); for (_0x27f3b8 = 0x1; _0x27f3b8 < 0x6; _0x27f3b8++) { $('.middle-bottom-slots')[_0x13c87b(0x1e7)](_0x13c87b(0x189) + _0x27f3b8 + '\x22>' + '<img\x20class=\x22slot-count\x22\x20src=\x22assets/icons/' + _0x27f3b8 + _0x13c87b(0x20c) + _0x13c87b(0x18e) + _0x27f3b8 + _0x13c87b(0x1e1) + image + _0x13c87b(0x182) + '</div\x20>' + _0x13c87b(0x1bc)); } $[_0x13c87b(0x1fc)](_0x3b82c4, function (_0x59c6d9, _0x2963b7) { var _0x1579d2 = _0x13c87b; count = setCount(_0x2963b7), _0x2963b7[_0x1579d2(0x1a3)] == undefined && (_0x2963b7[_0x1579d2(0x1a3)] = _0x1579d2(0x1cd)), $(_0x1579d2(0x1e9) + _0x2963b7['slot'])[_0x1579d2(0x1cb)]('<div\x20class=\x22slot-name\x22>' + _0x2963b7[_0x1579d2(0x1dc)] + '</div>'), $('#itemFast-' + _0x2963b7[_0x1579d2(0x1f8)])[_0x1579d2(0x24c)](_0x1579d2(0x239), _0x1579d2(0x1e2) + _0x2963b7['image'] + ')'), $(_0x1579d2(0x1e9) + _0x2963b7[_0x1579d2(0x1f8)])[_0x1579d2(0x241)](_0x1579d2(0x1b6), _0x2963b7), $(_0x1579d2(0x1e9) + _0x2963b7['slot'])[_0x1579d2(0x241)](_0x1579d2(0x21e), _0x1579d2(0x208)); }); } _0x2d39f9 == 'clothe' && $(_0x13c87b(0x215)), makeDraggables(), _0x2d39f9 == _0x13c87b(0x1b6) && $('#drop'); } function makeDraggables() { var _0x47238d = _0x3e4bed; $(_0x47238d(0x1e4))[_0x47238d(0x1b9)]({ 'drop': function (_0xd43d44, _0x56b7ff) { var _0x53d49a = _0x47238d; itemData = _0x56b7ff['draggable']['data']('item'), itemInventory = _0x56b7ff[_0x53d49a(0x1ab)]['data'](_0x53d49a(0x21e)), type === _0x53d49a(0x231) && (itemInventory === _0x53d49a(0x169) || itemInventory === _0x53d49a(0x208)) && (disableInventory(0x1f4), $[_0x53d49a(0x172)](_0x53d49a(0x1fb), JSON['stringify']({ 'item': itemData, 'slot': 0x1 }))); } }), $(_0x47238d(0x204))['droppable']({ 'drop': function (_0x77121a, _0x58e09f) { var _0x24f142 = _0x47238d; itemData = _0x58e09f[_0x24f142(0x1ab)]['data'](_0x24f142(0x1b6)), itemInventory = _0x58e09f['draggable']['data'](_0x24f142(0x21e)), type === 'normal' && (itemInventory === _0x24f142(0x169) || itemInventory === _0x24f142(0x208)) && (disableInventory(0x1f4), $[_0x24f142(0x172)](_0x24f142(0x1fb), JSON[_0x24f142(0x1c0)]({ 'item': itemData, 'slot': 0x2 }))); } }), $(_0x47238d(0x18f))[_0x47238d(0x1b9)]({ 'drop': function (_0x25d564, _0x4d6ed5) { var _0x5d2bda = _0x47238d; itemData = _0x4d6ed5[_0x5d2bda(0x1ab)][_0x5d2bda(0x241)]('item'), itemInventory = _0x4d6ed5['draggable'][_0x5d2bda(0x241)](_0x5d2bda(0x21e)), type === _0x5d2bda(0x231) && (itemInventory === 'main' || itemInventory === _0x5d2bda(0x208)) && (disableInventory(0x1f4), $[_0x5d2bda(0x172)]('http://ZmainInventory/PutIntoFast', JSON['stringify']({ 'item': itemData, 'slot': 0x3 }))); } }), $(_0x47238d(0x1b2))[_0x47238d(0x1b9)]({ 'drop': function (_0x5cdb99, _0x48e24d) { var _0x35481f = _0x47238d; itemData = _0x48e24d[_0x35481f(0x1ab)][_0x35481f(0x241)](_0x35481f(0x1b6)), itemInventory = _0x48e24d[_0x35481f(0x1ab)][_0x35481f(0x241)](_0x35481f(0x21e)), type === _0x35481f(0x231) && (itemInventory === 'main' || itemInventory === _0x35481f(0x208)) && (disableInventory(0x1f4), $['post'](_0x35481f(0x1fb), JSON[_0x35481f(0x1c0)]({ 'item': itemData, 'slot': 0x4 }))); } }), $('#itemFast-5')['droppable']({ 'drop': function (_0x5020f3, _0x5d024b) { var _0x50ee12 = _0x47238d; itemData = _0x5d024b[_0x50ee12(0x1ab)][_0x50ee12(0x241)](_0x50ee12(0x1b6)), itemInventory = _0x5d024b[_0x50ee12(0x1ab)]['data'](_0x50ee12(0x21e)), type === 'normal' && (itemInventory === 'main' || itemInventory === _0x50ee12(0x208)) && (disableInventory(0x1f4), $['post'](_0x50ee12(0x1fb), JSON[_0x50ee12(0x1c0)]({ 'item': itemData, 'slot': 0x5 }))); } }); } $(function () { var _0x120854 = _0x3e4bed; $(_0x120854(0x250))['click'](function () { var _0x3f30ad = _0x120854; $[_0x3f30ad(0x172)](_0x3f30ad(0x221), JSON['stringify']({ 'type': _0x3f30ad(0x210) })); }), $('#button\x5c.raccourci-2')[_0x120854(0x22b)](function () { var _0x4e115d = _0x120854; $['post']('http://ZmainInventory/category', JSON[_0x4e115d(0x1c0)]({ 'type': 'item' })); }), $(_0x120854(0x24b))['click'](function () { var _0x88fb63 = _0x120854; $[_0x88fb63(0x172)]('http://ZmainInventory/category', JSON[_0x88fb63(0x1c0)]({ 'type': _0x88fb63(0x1ca) })); }), $('#button\x5c.raccourci-4')[_0x120854(0x22b)](function () { $['post']('http://ZmainInventory/category', JSON['stringify']({ 'type': 'clothes' })); }); }); function disableInventory(_0x2abae6) { disabled = !![], setInterval(function () { disabled = ![]; }, _0x2abae6); } $(document)['ready'](function () { var _0x4fff24 = _0x3e4bed; $('.middle-clothes-part-left\x20.item-box')[_0x4fff24(0x1d7)]()['click'](function () { var _0x440710 = _0x4fff24; $[_0x440710(0x172)](_0x440710(0x1a9), JSON[_0x440710(0x1c0)]({ 'component': $(this)[_0x440710(0x174)]('id') })); }), $(_0x4fff24(0x243))[_0x4fff24(0x1d7)]()[_0x4fff24(0x22b)](function () { var _0xcdccf3 = _0x4fff24; $[_0xcdccf3(0x172)](_0xcdccf3(0x1a9), JSON['stringify']({ 'component': $(this)[_0xcdccf3(0x174)]('id') })); }), $(_0x4fff24(0x1b8))[_0x4fff24(0x1b9)]({ 'hoverClass': _0x4fff24(0x232), 'drop': function (_0x564466, _0x5f4c38) { var _0xbfcfb8 = _0x4fff24; idcardOpen && $(_0xbfcfb8(0x183))[_0xbfcfb8(0x209)](), itemData = _0x5f4c38[_0xbfcfb8(0x1ab)][_0xbfcfb8(0x241)](_0xbfcfb8(0x1b6)), itemData[_0xbfcfb8(0x186)] && $[_0xbfcfb8(0x172)](_0xbfcfb8(0x1d9), JSON[_0xbfcfb8(0x1c0)]({ 'item': itemData })); } }), $(_0x4fff24(0x1e5))['droppable']({ 'hoverClass': _0x4fff24(0x232), 'drop': function (_0x73134f, _0x49bce8) { var _0x5ad2d8 = _0x4fff24; itemData = _0x49bce8['draggable'][_0x5ad2d8(0x241)](_0x5ad2d8(0x1b6)), $[_0x5ad2d8(0x172)]('http://ZmainInventory/giveItem', JSON[_0x5ad2d8(0x1c0)]({ 'item': itemData })); } }), $(_0x4fff24(0x1ef))['droppable']({ 'hoverClass': _0x4fff24(0x232), 'drop': function (_0x5d25e9, _0x5cd371) { var _0x4e64cc = _0x4fff24; itemData = _0x5cd371[_0x4e64cc(0x1ab)]['data'](_0x4e64cc(0x1b6)), $[_0x4e64cc(0x172)](_0x4e64cc(0x216), JSON[_0x4e64cc(0x1c0)]({ 'item': itemData })); } }), $(_0x4fff24(0x257))[_0x4fff24(0x1b9)]({ 'hoverClass': _0x4fff24(0x232), 'drop': function (_0x26941c, _0x19ad0e) { var _0x4a5d86 = _0x4fff24; itemData = _0x19ad0e[_0x4a5d86(0x1ab)]['data'](_0x4a5d86(0x1b6)), $[_0x4a5d86(0x172)]('http://ZmainInventory/deleteItem', JSON[_0x4a5d86(0x1c0)]({ 'item': itemData })); } }), $('#left-inventory')['droppable']({ 'drop': function (_0x342754, _0x142092) { var _0x3e5b5a = _0x4fff24; itemData = _0x142092['draggable'][_0x3e5b5a(0x241)]('item'), itemInventory = _0x142092[_0x3e5b5a(0x1ab)][_0x3e5b5a(0x241)](_0x3e5b5a(0x21e)), type === 'trunk' && itemInventory === _0x3e5b5a(0x181) ? (disableInventory(0x1f4), $[_0x3e5b5a(0x172)](_0x3e5b5a(0x212), JSON[_0x3e5b5a(0x1c0)]({ 'item': itemData }))) : type === _0x3e5b5a(0x1c7) && itemInventory === _0x3e5b5a(0x181) ? (disableInventory(0x1f4), $[_0x3e5b5a(0x172)](_0x3e5b5a(0x202), JSON[_0x3e5b5a(0x1c0)]({ 'item': itemData }))) : type === _0x3e5b5a(0x231) && itemInventory === _0x3e5b5a(0x208) ? (disableInventory(0x1f4), $[_0x3e5b5a(0x172)](_0x3e5b5a(0x165), JSON['stringify']({ 'item': itemData }))) : type === _0x3e5b5a(0x218) && itemInventory === _0x3e5b5a(0x181) ? (disableInventory(0x1f4), $['post'](_0x3e5b5a(0x1fe), JSON['stringify']({ 'item': itemData }))) : type === _0x3e5b5a(0x16f) && itemInventory === 'second' && (disableInventory(0x1f4), $['post'](_0x3e5b5a(0x225), JSON[_0x3e5b5a(0x1c0)]({ 'item': itemData }))); } }), $('#right-inventory')['droppable']({ 'drop': function (_0x1f3f94, _0xd1a937) { var _0x4194b = _0x4fff24; itemData = _0xd1a937[_0x4194b(0x1ab)][_0x4194b(0x241)](_0x4194b(0x1b6)), itemInventory = _0xd1a937['draggable'][_0x4194b(0x241)](_0x4194b(0x21e)), type === 'trunk' && itemInventory === _0x4194b(0x169) ? (disableInventory(0x1f4), $[_0x4194b(0x172)](_0x4194b(0x173), JSON['stringify']({ 'item': itemData }))) : type === 'property' && itemInventory === _0x4194b(0x169) ? (disableInventory(0x1f4), $[_0x4194b(0x172)](_0x4194b(0x187), JSON[_0x4194b(0x1c0)]({ 'item': itemData }))) : type === _0x4194b(0x218) && itemInventory === 'main' ? (disableInventory(0x1f4), $[_0x4194b(0x172)](_0x4194b(0x1af), JSON[_0x4194b(0x1c0)]({ 'item': itemData }))) : type === _0x4194b(0x16f) && itemInventory === 'main' && (disableInventory(0x1f4), $[_0x4194b(0x172)]('http://ZmainInventory/PutIntoPlayer', JSON[_0x4194b(0x1c0)]({ 'item': itemData }))); } }), document[_0x4fff24(0x17b)](_0x4fff24(0x195))[_0x4fff24(0x1be)]('keyup', function (_0x4fda20) { var _0x5d3332 = _0x4fff24; _0x4fda20[_0x5d3332(0x1c6)](), _0x4fda20['keyCode'] === 0xd && $('#keyboard-input')['is'](':visible') && $(_0x5d3332(0x16c))['is'](_0x5d3332(0x211)) && ($[_0x5d3332(0x172)]('http://ZmainInventory/send', JSON[_0x5d3332(0x1c0)]({ 'text': document['getElementById'](_0x5d3332(0x195))[_0x5d3332(0x203)][_0x5d3332(0x1ff)](), 'value': inputValue, 'data': inputData })), document[_0x5d3332(0x17b)](_0x5d3332(0x195))[_0x5d3332(0x203)] = '', $(_0x5d3332(0x214))[_0x5d3332(0x209)]()), _0x4fda20['keyCode'] === 0x1b && $(_0x5d3332(0x214))['is'](_0x5d3332(0x24f)) && $(_0x5d3332(0x16c))['is'](':focus') && ($[_0x5d3332(0x172)](_0x5d3332(0x1fd), JSON[_0x5d3332(0x1c0)]({})), document[_0x5d3332(0x17b)]('textArea')[_0x5d3332(0x203)] = '', $('#keyboard-input')[_0x5d3332(0x209)]()); }), $(_0x4fff24(0x176))[_0x4fff24(0x22b)](function () { var _0x3ec407 = _0x4fff24; $[_0x3ec407(0x172)]('http://ZmainInventory/send', JSON[_0x3ec407(0x1c0)]({ 'text': document[_0x3ec407(0x17b)](_0x3ec407(0x195))[_0x3ec407(0x203)][_0x3ec407(0x1ff)](), 'value': inputValue, 'data': inputData })), document[_0x3ec407(0x17b)]('textArea')[_0x3ec407(0x203)] = '', $(_0x3ec407(0x214))[_0x3ec407(0x209)](); }), $('#button\x5c.showButton')[_0x4fff24(0x22b)](function () { var _0x4cbcc6 = _0x4fff24; $[_0x4cbcc6(0x172)](_0x4cbcc6(0x206), JSON['stringify']({ 'info': idcard, 'type': idcardType })), $(_0x4cbcc6(0x255))[_0x4cbcc6(0x209)](); }), $('#button\x5c.chooseButton')['click'](function () { var _0x1dbc34 = _0x4fff24; $[_0x1dbc34(0x172)]('http://ZmainInventory/lookCard', JSON[_0x1dbc34(0x1c0)]({ 'info': idcard, 'type': idcardType })), $('.menu')[_0x1dbc34(0x209)](); }), $(_0x4fff24(0x1f6))[_0x4fff24(0x22b)](function () { var _0x2c803b = _0x4fff24; $(_0x2c803b(0x183))[_0x2c803b(0x209)](), idcardOpen = ![]; for (let _0x295136 = 0x0; _0x295136 < totalSlots; _0x295136++) { $('#right-inventory')[_0x2c803b(0x1e7)](_0x2c803b(0x1a0) + _0x295136 + '\x22\x20class=\x22item\x22></div><div\x20class=\x22item-name-bg\x22></div></div>'); } }); }), $['widget'](_0x3e4bed(0x20e), $['ui'][_0x3e4bed(0x199)], { 'options': { 'clickOutside': ![], 'clickOutsideTrigger': '' }, 'open': function () { var _0xa3d994 = _0x3e4bed, _0x1fb465 = $(this[_0xa3d994(0x1a5)][_0xa3d994(0x22f)]), _0x3c631c = this; this[_0xa3d994(0x1a5)][_0xa3d994(0x1c2)] && $(document)['on'](_0xa3d994(0x253) + _0x3c631c[_0xa3d994(0x233)], function (_0x1d8631) { var _0x538aba = _0xa3d994, _0x4d65bb = $(_0x1d8631[_0x538aba(0x19b)]); _0x4d65bb[_0x538aba(0x1e3)]($(_0x1fb465))[_0x538aba(0x246)] === 0x0 && _0x4d65bb[_0x538aba(0x1e3)]($(_0x3c631c[_0x538aba(0x23c)]))[_0x538aba(0x246)] === 0x0 && _0x3c631c['close'](); }), this[_0xa3d994(0x191)](); }, 'close': function () { var _0x1cc5fe = _0x3e4bed; $(document)[_0x1cc5fe(0x1d7)](_0x1cc5fe(0x253) + this[_0x1cc5fe(0x233)]), this['_super'](); } }); var currentNotification = null; function NotifyDefault(_0x2f6b72, _0x22a4a6) { var _0x363986 = _0x3e4bed, _0x461284 = 0x1; if (currentNotification == 0x1) return; currentNotification == undefined && (currentNotification = 0x1), $(_0x363986(0x1c5))['prepend']('\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22notify-without-icon\x22\x20id=\x22notifydef-' + _0x461284 + _0x363986(0x170) + _0x2f6b72 + _0x363986(0x226)); var _0x559c9c = $(_0x363986(0x1f5) + _0x461284), _0x35cad4 = _0x559c9c[_0x363986(0x179)](_0x363986(0x23d)), _0x2238de = Date[_0x363986(0x22c)](), _0x35221 = setInterval(function () { var _0x3a2f6e = _0x363986, _0x44fa85 = Date[_0x3a2f6e(0x22c)]() - _0x2238de, _0x48655e = _0x44fa85 / _0x22a4a6 * 0x64; _0x48655e >= 0x64 ? (clearInterval(_0x35221), setTimeout(() => { var _0x58bfb0 = _0x3a2f6e; _0x559c9c[_0x58bfb0(0x1eb)]('hidden'); }, 0x96), setTimeout(() => { var _0xffed9c = _0x3a2f6e; _0x559c9c[_0xffed9c(0x23f)](), currentNotification = null; }, 0x258)) : _0x35cad4[_0x3a2f6e(0x24c)](_0x3a2f6e(0x256), _0x48655e + '%'); }, 0xa); _0x461284++; } function NotifyItem(_0x354c83, _0x15eff4, _0x21c24f) { var _0x4a9d58 = _0x3e4bed, _0x44b183 = 0x1; _0x15eff4 == undefined && (_0x15eff4 = _0x4a9d58(0x1cd)), $(_0x4a9d58(0x180))[_0x4a9d58(0x168)](_0x4a9d58(0x248) + _0x44b183 + '\x22\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-notify-with-icon\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22' + _0x15eff4 + _0x4a9d58(0x1a2) + _0x354c83 + _0x4a9d58(0x236) + _0x21c24f + _0x4a9d58(0x188)); var _0x4ea110 = $('#notify-' + _0x44b183), _0x220f56 = Date[_0x4a9d58(0x22c)](), _0x45baa2 = setInterval(function () { var _0x270206 = _0x4a9d58, _0x3fcb22 = Date[_0x270206(0x22c)]() - _0x220f56, _0x8c6fe5 = _0x3fcb22 / 0xbb8 * 0x64; if (_0x8c6fe5 >= 0x64) clearInterval(_0x45baa2), setTimeout(() => { var _0x5826f0 = _0x270206; _0x4ea110[_0x5826f0(0x1eb)](_0x5826f0(0x217)); }, 0x96), setTimeout(() => { _0x4ea110['remove'](); }, 0x258); else { } }, 0xa); _0x44b183++; } function isDefined(_0x9450ba) { var _0x42bc6a = _0x3e4bed; return typeof _0x9450ba !== _0x42bc6a(0x1b7) && _0x9450ba !== null; } function format(_0xbf3f20) { var _0x10afd8 = _0x3e4bed, _0x5b3e32 = ![], _0x236d64 = '', _0x1efb8b = ''; for (var _0x129fdf = 0x0; _0x129fdf < _0xbf3f20['length']; _0x129fdf++) { if (_0xbf3f20[_0x129fdf] === '~') { var _0x2ca1f3 = ''; _0x129fdf++; while (_0xbf3f20[_0x129fdf] != '~') { _0x2ca1f3 += _0xbf3f20[_0x129fdf], _0x129fdf++; } isDefined(config_text_color[_0x2ca1f3]) ? (_0x236d64 = config_text_color[_0x2ca1f3], !_0x5b3e32 ? (_0x1efb8b += '<span\x20style=\x22color:\x20' + _0x236d64 + '\x22>', _0x5b3e32 = !![]) : _0x1efb8b += _0x10afd8(0x213) + _0x236d64 + '\x22>') : isDefined(config_text_fonts[_0x2ca1f3]) ? (_0x236d64 = config_text_fonts[_0x2ca1f3], !_0x5b3e32 ? (_0x1efb8b += _0x10afd8(0x22e) + _0x236d64 + '\x22>', _0x5b3e32 = !![]) : _0x1efb8b += _0x10afd8(0x1c8) + _0x236d64 + '\x22>') : isDefined(Keys[_0x2ca1f3]) && (_0x1efb8b += '<span\x20class=\x22key\x22>' + Keys[_0x2ca1f3] + _0x10afd8(0x1dd)); } else _0x1efb8b += _0xbf3f20[_0x129fdf]; } return _0x5b3e32 && (_0x1efb8b += _0x10afd8(0x1dd)), _0x1efb8b; } function GTA_PICTURE(_0x2e68c5) { return isDefined(Picture[_0x2e68c5]) ? 'assets/images/' + Picture[_0x2e68c5] : ![]; } function _0x142f(_0x4e57b1, _0x443b7b) { var _0x435bf7 = _0x435b(); return _0x142f = function (_0x142ffc, _0x5f3fc0) { _0x142ffc = _0x142ffc - 0x162; var _0x27881e = _0x435bf7[_0x142ffc]; return _0x27881e; }, _0x142f(_0x4e57b1, _0x443b7b); } function setCount(_0x39e957) { var _0x1dc014 = _0x3e4bed; return count = _0x39e957[_0x1dc014(0x17f)], _0x39e957[_0x1dc014(0x249)] > 0x0 && (count = _0x39e957['count']), _0x39e957['type'] === _0x1dc014(0x1f4) && (count = ''), _0x39e957[_0x1dc014(0x22d)] === _0x1dc014(0x234) && (count = ''), (_0x39e957['type'] === 'item_account' || _0x39e957[_0x1dc014(0x22d)] === 'item_money') && (count = formatMoney(_0x39e957[_0x1dc014(0x17f)])), count; } function formatMoney(_0xc280a4, _0x4b91f4, _0x13f5da, _0x364a11) { var _0x2bd587 = _0x3e4bed, _0x4b91f4 = isNaN(_0x4b91f4 = Math[_0x2bd587(0x1a8)](_0x4b91f4)) ? 0x2 : _0x4b91f4, _0x13f5da = _0x13f5da == undefined ? '.' : _0x13f5da, _0x364a11 = _0x364a11 == undefined ? ',' : _0x364a11, _0x1a7c24 = _0xc280a4 < 0x0 ? '-' : '', _0x467708 = String(parseInt(_0xc280a4 = Math['abs'](Number(_0xc280a4) || 0x0)['toFixed'](_0x4b91f4))), _0x27cbd8 = (_0x27cbd8 = _0x467708[_0x2bd587(0x246)]) > 0x3 ? _0x27cbd8 % 0x3 : 0x0; return _0x1a7c24 + (_0x27cbd8 ? _0x467708[_0x2bd587(0x20d)](0x0, _0x27cbd8) + _0x364a11 : '') + _0x467708[_0x2bd587(0x20d)](_0x27cbd8)[_0x2bd587(0x198)](/(\d{3})(?=\d)/g, '$1' + _0x364a11); } $(document)[_0x3e4bed(0x18c)](function (_0x5951fb) { var _0x5997d2 = _0x3e4bed; if (_0x5951fb['which'] != 0x3) return; itemData = $(_0x5951fb[_0x5997d2(0x19b)])[_0x5997d2(0x241)](_0x5997d2(0x1b6)); if (itemData == undefined || itemData[_0x5997d2(0x186)] == undefined) return; itemInventory = $(_0x5951fb[_0x5997d2(0x19b)])[_0x5997d2(0x241)](_0x5997d2(0x1d1)), itemData['usable'] && $[_0x5997d2(0x172)](_0x5997d2(0x1d9), JSON[_0x5997d2(0x1c0)]({ 'item': itemData })); }), config[_0x3e4bed(0x254)] && $(document)[_0x3e4bed(0x1c1)](function () { var _0x16c6c6 = _0x3e4bed; HealthIndicator = new ProgressBar['Circle'](_0x16c6c6(0x1cc), { 'color': config[_0x16c6c6(0x1c3)], 'trailColor': 'rgb(80,\x2080,\x2080)', 'strokeWidth': 0xa, 'trailWidth': 0xa, 'duration': 0x7d0, 'easing': 'easeInOut' }), ArmorIndicator = new ProgressBar[(_0x16c6c6(0x1d2))](_0x16c6c6(0x21a), { 'color': config[_0x16c6c6(0x1c3)], 'trailColor': _0x16c6c6(0x1d3), 'strokeWidth': 0xa, 'trailWidth': 0xa, 'duration': 0x7d0, 'easing': _0x16c6c6(0x18a) }), HungerIndicator = new ProgressBar[(_0x16c6c6(0x1d2))](_0x16c6c6(0x1b5), { 'color': config[_0x16c6c6(0x1c3)], 'trailColor': _0x16c6c6(0x1d3), 'strokeWidth': 0xa, 'trailWidth': 0xa, 'duration': 0x7d0, 'easing': _0x16c6c6(0x18a) }), ThirstIndicator = new ProgressBar['Circle'](_0x16c6c6(0x24e), { 'color': config['colorHud'], 'trailColor': _0x16c6c6(0x1d3), 'strokeWidth': 0xa, 'trailWidth': 0xa, 'duration': 0x7d0, 'easing': 'easeInOut' }); }); var ZConfig = new Object(); ZConfig[_0x3e4bed(0x1ad)] = [0x1b], $(document)[_0x3e4bed(0x1c1)](function () { $('body')['on']('keyup', function (_0x52df41) { var _0x3a88a1 = _0x142f; ZConfig[_0x3a88a1(0x1ad)][_0x3a88a1(0x201)](_0x52df41[_0x3a88a1(0x21d)]) && $[_0x3a88a1(0x172)]('http://ZmainInventory/closeInventory', JSON[_0x3a88a1(0x1c0)]({})); }); }); 
+var type = 'normal',
+  disabled = false
+const maxWeightBarValue = 28.2
+let totalSlots = 30
+var idcard = null,
+  idcardType = null,
+  idcardOpen = false
+  var inputValue = 'number'
+  var inputData = {}
+
+  var inventoryOpen = false
+window.addEventListener('message', function (_0x113562) {
+  const _0x459a2b = $('#weightBar'),
+    _0x22c748 = $('#weight'),
+    _0x281997 = $('#weightCoffre'),
+    _0x117df1 = $('#weightBarCoffre'),
+    _0x58c568 = $('#plate'),
+    _0x3f8a18 = $('#hudSetting')
+
+
+  document.onkeyup = function (data) {
+      if (data.which == 9) {
+        if (inventoryOpen === true) {
+          $.post(
+            'http://ZmainInventory/closeInventory',
+            JSON.stringify({})
+          )
+        }
+      }
+  };    
+  if (_0x113562.data.action == 'open:Inv') {
+    type = _0x113562.data.type
+    disabled = false
+    $('.form-inv').show()
+
+    setTimeout(function() {
+      inventoryOpen = true
+    }, 500)
+  } else {
+    if (_0x113562.data.action == 'close:Inv') {
+      $('#dialog').dialog('close')
+      $('.form-inv').hide()
+      $('.item').remove()
+      $('.menu').hide()
+      _0x117df1.css('width', 0 + 'vw')
+      _0x281997.text('')
+      _0x58c568.text('')
+
+      inventoryOpen = false
+    } else {
+      if (_0x113562.data.action == 'Inv:WeightBarText') {
+        let _0x27a5b7 =
+          (maxWeightBarValue * _0x113562.data.weight) / _0x113562.data.maxWeight
+        _0x459a2b.css('width', _0x27a5b7 + 'vw')
+        _0x22c748.text(_0x113562.data.text)
+      } else {
+        if (_0x113562.data.action == 'setItems') {
+          inventorySetup(
+            _0x113562.data.itemList,
+            _0x113562.data.fastItems,
+            _0x113562.data.crMenu,
+            _0x113562.data.itemTrunk
+          )
+          maxWeight = _0x113562.data.maxWeight
+          totalWeight = _0x113562.data.weight
+          let _0x358984 = (maxWeightBarValue / maxWeight) * totalWeight
+          _0x459a2b.css('width', _0x358984 + 'vw')
+          _0x22c748.text(_0x113562.data.text)
+          $('.info_ui')
+            .attr('data-html', 'true')
+            .attr('title', _U('help_interfaces'))
+            .tooltip({ classes: { 'ui-tooltip': 'custom-tooltip' } })
+          $('.item').draggable({
+            helper: 'clone',
+            appendTo: 'body',
+            zIndex: 99999,
+            revert: 'invalid',
+            start: function (_0x14bf2b, _0x348eab) {
+              if (disabled) {
+                return false
+              }
+              $(this).css('background-image', 'none')
+              itemData = $(this).data('item')
+              $('#drop').addClass('disabled')
+              $('#give').addClass('disabled')
+              $('#rename').addClass('disabled')
+              $('#use').addClass('disabled')
+            },
+            stop: function () {
+              itemData = $(this).data('item')
+              if (itemData === undefined) {
+                image =
+                  'https://cdn.discordapp.com/attachments/979486375218937946/1133070614022852608/image_2023-07-24_181738854-removebg-preview.png'
+              } else {
+                itemData !== undefined && (image = itemData.image)
+              }
+              $(this).css('background-image', 'url(' + image + ')')
+              $('#drop').removeClass('disabled')
+              $('#use').removeClass('disabled')
+              $('#rename').removeClass('disabled')
+              $('#give').removeClass('disabled')
+            },
+          })
+        } else {
+          if (_0x113562.data.action == 'setSecondInventoryItems') {
+            secondInventorySetup(_0x113562.data.itemList)
+          } else {
+            if (_0x113562.data.action == 'updateSlot') {
+              updateSlot(_0x113562.data.fastItems, _0x113562.data.crMenu)
+            } else {
+              if (_0x113562.data.action == 'InvNotify') {
+                msg = format(_0x113562.data.message)
+                NotifyDefault(msg, _0x113562.data.timeout)
+              } else {
+                if (_0x113562.data.action == 'ItemNotify') {
+                  NotifyItem(
+                    _0x113562.data.message,
+                    _0x113562.data.icon,
+                    _0x113562.data.count
+                  )
+                } else {
+                  if (_0x113562.data.action == 'InvHud') {
+                    config.activeHud
+                      ? (HealthIndicator.animate(_0x113562.data.hp / 100),
+                        ArmorIndicator.animate(_0x113562.data.armor / 100),
+                        HungerIndicator.animate(_0x113562.data.hunger / 100),
+                        ThirstIndicator.animate(_0x113562.data.thirst / 100))
+                      : _0x3f8a18.css('display', 'none')
+                  } else {
+                    if (_0x113562.data.action == 'open:Input') {
+                      inputValue = _0x113562.data.value
+                      inputData = _0x113562.data.data
+                      $('.title').text(_0x113562.data.title)
+                      $('#textArea').val('')
+                      $('#keyboard-input').show()
+                      setTimeout(() => {
+                        $('#textArea').focus()
+                      }, 10)
+                    } else {
+                      if (_0x113562.data.action == 'close:Input') {
+                        $.post('http://ZmainInventory/cancel', JSON.stringify({}))
+                        document.getElementById('textArea').value = ''
+                        $('#keyboard-input').hide()
+                      } else {
+                        if (_0x113562.data.action == 'open:MenuIdCard') {
+                          idcard = _0x113562.data.info
+                          idcardType = _0x113562.data.type
+                          $('.menu').show()
+                        } else {
+                          if (_0x113562.data.action == 'close:MenuIdCard') {
+                            $('.menu').hide()
+                          } else {
+                            if (_0x113562.data.action == 'open:idCard') {
+                              idcardOpen = true
+                              var _0x411ff7 = _0x113562.data.information,
+                                _0x476709 = _0x113562.data.sex,
+                                _0x1528c3 = _0x113562.data.title,
+                                _0x2a0c2d = _0x113562.data.image,
+                                _0xac6f3c = _0x113562.data.icon,
+                                _0x16b0e7 = _0x113562.data.color
+                              $('#type').text(_0x1528c3)
+                              $('#name').text(
+                                _0x411ff7.firstname + ' ' + _0x411ff7.lastname
+                              )
+                              $('#dob').text(_0x411ff7.dateofbirth)
+                              $('#height').text(_0x411ff7.height + ' cm')
+                              $('#sex').text(_0x476709)
+                              $('#icon').attr('src', _0xac6f3c)
+                              $('#picture').attr(
+                                'src',
+                                _0x2a0c2d || 'assets/icons/picture.png'
+                              )
+                              $('#signature').text(_0x411ff7.lastname)
+                              var _0x1cba60 = document.createElement('style')
+                              _0x1cba60.innerHTML =
+                                '.idcard-container:after { border-bottom: 0.154vw solid ' +
+                                _0x16b0e7 +
+                                '; }'
+                              document.head.appendChild(_0x1cba60)
+                              $('#picture-box-setting').css(
+                                'border',
+                                '0.104vw solid ' + _0x16b0e7
+                              )
+                              $('#right-inventory').html('')
+                              $('#id-card').show()
+                            } else {
+                              if (_0x113562.data.action == 'close:idCard') {
+                                $('#id-card').hide()
+                                idcardOpen = false
+                              } else {
+                                if (
+                                  _0x113562.data.action == 'trunk:WeightBarText'
+                                ) {
+                                  let _0x2b0e39 =
+                                    (maxWeightBarValue *
+                                      _0x113562.data.weightTrunk) /
+                                    _0x113562.data.maxWeightTrunk
+                                  _0x117df1.css('width', _0x2b0e39 + 'vw')
+                                  _0x281997.text(_0x113562.data.textTrunk)
+                                  _0x58c568.text(_0x113562.data.plate)
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+})
+function inventorySetup(_0x5c1c59, _0x11c7a4, _0x2cf1fd, _0x13a746) {
+  $('#left-inventory').html('')
+  _0x13a746 == 'no' && $('#right-inventory').html('')
+  if (Array.isArray(_0x5c1c59)) {
+    let _0x58284e = _0x5c1c59.length
+    $.each(_0x5c1c59, function (_0x594f30, _0xd0f863) {
+      count = setCount(_0xd0f863)
+      _0xd0f863.image == undefined &&
+        (_0xd0f863.image =
+          'https://cdn.discordapp.com/attachments/1008837979894198413/1129138995301994606/togo_box.png')
+      $('#left-inventory').append(
+        '<div class="item-info"><div id="item-' +
+          _0x594f30 +
+          '" class="item" style="background-image: url(' +
+          _0xd0f863.image +
+          ')"><div class="item-count">' +
+          count +
+          '</div><div class="item-name">' +
+          _0xd0f863.label +
+          '</div></div><div class="item-name-bg"></div></div>'
+      )
+      $('#item-' + _0x594f30).data('item', _0xd0f863)
+      $('#item-' + _0x594f30).data('inventory', 'main')
+    })
+    for (let _0x625afd = 0; _0x625afd < totalSlots - _0x58284e; _0x625afd++) {
+      let _0x1e2b85 = _0x58284e + _0x625afd
+      $('#left-inventory').append(
+        '<div class="item-info"><div id="item-' +
+          _0x1e2b85 +
+          '" class="item"></div><div class="item-name-bg"></div></div>'
+      )
+    }
+    if (idcardOpen == false) {
+      if (_0x13a746 == 'no') {
+        for (let _0x7d7e1f = 0; _0x7d7e1f < totalSlots; _0x7d7e1f++) {
+          $('#right-inventory').append(
+            '<div class="item-info"><div id="item-' +
+              _0x7d7e1f +
+              '" class="item"></div><div class="item-name-bg"></div></div>'
+          )
+        }
+      }
+    }
+  } else {
+    console.error("items n'est pas un tableau")
+  }
+  $('.middle-bottom-slots').html('')
+  if (_0x2cf1fd == 'item') {
+    $('#drop')
+    var _0x488bda
+    image =
+      'https://cdn.discordapp.com/attachments/979486375218937946/1133070614022852608/image_2023-07-24_181738854-removebg-preview.png'
+    for (_0x488bda = 1; _0x488bda < 6; _0x488bda++) {
+      $('.middle-bottom-slots').append(
+        '<div class="middle-slot-box" id"itemDescr-' +
+          _0x488bda +
+          '">' +
+          '<img class="slot-count" src="assets/icons/' +
+          _0x488bda +
+          '_key.png" alt="">' +
+          '<div id="itemFast-' +
+          _0x488bda +
+          '" class="item" style = "background-image: url(' +
+          image +
+          ')">' +
+          '</div >' +
+          '</div>'
+      )
+    }
+    $.each(_0x11c7a4, function (_0x218215, _0x4b72c5) {
+      count = setCount(_0x4b72c5)
+      _0x4b72c5.image == undefined &&
+        (_0x4b72c5.image =
+          'https://cdn.discordapp.com/attachments/1008837979894198413/1129138995301994606/togo_box.png')
+      $('#itemFast-' + _0x4b72c5.slot).html(
+        '<div class="slot-name">' + _0x4b72c5.label + '</div>'
+      )
+      $('#itemFast-' + _0x4b72c5.slot).css(
+        'background-image',
+        'url(' + _0x4b72c5.image + ')'
+      )
+      $('#itemFast-' + _0x4b72c5.slot).data('item', _0x4b72c5)
+      $('#itemFast-' + _0x4b72c5.slot).data('inventory', 'fast')
+    })
+  }
+  _0x2cf1fd == 'clothe' && $('#drop')
+  makeDraggables()
+  _0x2cf1fd == 'item' && $('#drop')
+}
+function secondInventorySetup(_0x32bfe6) {
+  $('#right-inventory').html('')
+  if (Array.isArray(_0x32bfe6)) {
+    let _0x557ca3 = _0x32bfe6.length
+    $.each(_0x32bfe6, function (_0x51c226, _0x1c51dc) {
+      count = setCount(_0x1c51dc)
+      _0x1c51dc.image == undefined &&
+        (_0x1c51dc.image =
+          'https://cdn.discordapp.com/attachments/1008837979894198413/1129138995301994606/togo_box.png')
+      $('#right-inventory').append(
+        '<div class="item-info"><div id="itemOther-' +
+          _0x51c226 +
+          '" class="item" style = "background-image: url(' +
+          _0x1c51dc.image +
+          ')"><div class="item-count">' +
+          count +
+          '</div><div class="item-name">' +
+          _0x1c51dc.label +
+          '</div></div><div class="item-name-bg"></div></div>'
+      )
+      $('#itemOther-' + _0x51c226).data('item', _0x1c51dc)
+      $('#itemOther-' + _0x51c226).data('inventory', 'second')
+    })
+    for (let _0x50d3df = 0; _0x50d3df < totalSlots - _0x557ca3; _0x50d3df++) {
+      let _0x4f3535 = _0x557ca3 + _0x50d3df
+      $('#right-inventory').append(
+        '<div class="item-info"><div id="itemOther-' +
+          _0x4f3535 +
+          '" class="item"></div><div class="item-name-bg"></div></div>'
+      )
+    }
+  } else {
+    console.error("items n'est pas un tableau")
+  }
+}
+function updateSlot(_0x2ca711, _0x435c29) {
+  $('.middle-bottom-slots').html('')
+  if (_0x435c29 == 'item') {
+    $('#drop')
+    var _0x5a000c
+    image =
+      'https://cdn.discordapp.com/attachments/979486375218937946/1133070614022852608/image_2023-07-24_181738854-removebg-preview.png'
+    for (_0x5a000c = 1; _0x5a000c < 6; _0x5a000c++) {
+      $('.middle-bottom-slots').append(
+        '<div class="middle-slot-box" id"itemDescr-' +
+          _0x5a000c +
+          '">' +
+          '<img class="slot-count" src="assets/icons/' +
+          _0x5a000c +
+          '_key.png" alt="">' +
+          '<div id="itemFast-' +
+          _0x5a000c +
+          '" class="item" style = "background-image: url(' +
+          image +
+          ')">' +
+          '</div >' +
+          '</div>'
+      )
+    }
+    $.each(_0x2ca711, function (_0x1f5abe, _0x3159f7) {
+      count = setCount(_0x3159f7)
+      _0x3159f7.image == undefined &&
+        (_0x3159f7.image =
+          'https://cdn.discordapp.com/attachments/1008837979894198413/1129138995301994606/togo_box.png')
+      $('#itemFast-' + _0x3159f7.slot).html(
+        '<div class="slot-name">' + _0x3159f7.label + '</div>'
+      )
+      $('#itemFast-' + _0x3159f7.slot).css(
+        'background-image',
+        'url(' + _0x3159f7.image + ')'
+      )
+      $('#itemFast-' + _0x3159f7.slot).data('item', _0x3159f7)
+      $('#itemFast-' + _0x3159f7.slot).data('inventory', 'fast')
+    })
+  }
+  _0x435c29 == 'clothe' && $('#drop')
+  makeDraggables()
+  _0x435c29 == 'item' && $('#drop')
+}
+function makeDraggables() {
+  $('#itemFast-1').droppable({
+    drop: function (_0x58835f, _0x3b30dc) {
+      itemData = _0x3b30dc.draggable.data('item')
+      itemInventory = _0x3b30dc.draggable.data('inventory')
+      type === 'normal' &&
+        (itemInventory === 'main' || itemInventory === 'fast') &&
+        (disableInventory(500),
+        $.post(
+          'http://ZmainInventory/PutIntoFast',
+          JSON.stringify({
+            item: itemData,
+            slot: 1,
+          })
+        ))
+    },
+  })
+  $('#itemFast-2').droppable({
+    drop: function (_0x2d08a7, _0x2e1ef7) {
+      itemData = _0x2e1ef7.draggable.data('item')
+      itemInventory = _0x2e1ef7.draggable.data('inventory')
+      type === 'normal' &&
+        (itemInventory === 'main' || itemInventory === 'fast') &&
+        (disableInventory(500),
+        $.post(
+          'http://ZmainInventory/PutIntoFast',
+          JSON.stringify({
+            item: itemData,
+            slot: 2,
+          })
+        ))
+    },
+  })
+  $('#itemFast-3').droppable({
+    drop: function (_0x36c0fe, _0x3c9081) {
+      itemData = _0x3c9081.draggable.data('item')
+      itemInventory = _0x3c9081.draggable.data('inventory')
+      type === 'normal' &&
+        (itemInventory === 'main' || itemInventory === 'fast') &&
+        (disableInventory(500),
+        $.post(
+          'http://ZmainInventory/PutIntoFast',
+          JSON.stringify({
+            item: itemData,
+            slot: 3,
+          })
+        ))
+    },
+  })
+  $('#itemFast-4').droppable({
+    drop: function (_0x246381, _0x52538e) {
+      itemData = _0x52538e.draggable.data('item')
+      itemInventory = _0x52538e.draggable.data('inventory')
+      type === 'normal' &&
+        (itemInventory === 'main' || itemInventory === 'fast') &&
+        (disableInventory(500),
+        $.post(
+          'http://ZmainInventory/PutIntoFast',
+          JSON.stringify({
+            item: itemData,
+            slot: 4,
+          })
+        ))
+    },
+  })
+  $('#itemFast-5').droppable({
+    drop: function (_0x343b62, _0x52064b) {
+      itemData = _0x52064b.draggable.data('item')
+      itemInventory = _0x52064b.draggable.data('inventory')
+      type === 'normal' &&
+        (itemInventory === 'main' || itemInventory === 'fast') &&
+        (disableInventory(500),
+        $.post(
+          'http://ZmainInventory/PutIntoFast',
+          JSON.stringify({
+            item: itemData,
+            slot: 5,
+          })
+        ))
+    },
+  })
+}
+$(function () {
+  $('#button\\.raccourci-1').click(function () {
+    $.post('http://ZmainInventory/category', JSON.stringify({ type: 'all' }))
+  })
+  $('#button\\.raccourci-2').click(function () {
+    $.post('http://ZmainInventory/category', JSON.stringify({ type: 'item' }))
+  })
+  $('#button\\.raccourci-3').click(function () {
+    $.post('http://ZmainInventory/category', JSON.stringify({ type: 'weapon' }))
+  })
+  $('#button\\.raccourci-4').click(function () {
+    $.post('http://ZmainInventory/category', JSON.stringify({ type: 'clothes' }))
+  })
+})
+function disableInventory(_0x3ff84a) {
+  disabled = true
+  setInterval(function () {
+    disabled = false
+  }, _0x3ff84a)
+}
+$(document).ready(function () {
+  $('.middle-clothes-part-left .item-box')
+    .off()
+    .click(function () {
+      $.post(
+        'http://ZmainInventory/removeClothes',
+        JSON.stringify({ component: $(this).attr('id') })
+      )
+    })
+  $('.middle-clothes-part-right .item-box2')
+    .off()
+    .click(function () {
+      $.post(
+        'http://ZmainInventory/removeClothes',
+        JSON.stringify({ component: $(this).attr('id') })
+      )
+    })
+  $('#useItem').droppable({
+    hoverClass: 'hoverControl',
+    drop: function (_0x176e61, _0x147a8e) {
+      idcardOpen && $('#id-card').hide()
+      itemData = _0x147a8e.draggable.data('item')
+      itemData.usable &&
+        $.post(
+          'http://ZmainInventory/itemUsable',
+          JSON.stringify({ item: itemData })
+        )
+    },
+  })
+  $('#giveItem').droppable({
+    hoverClass: 'hoverControl',
+    drop: function (_0xf92a3e, _0x500eb0) {
+      itemData = _0x500eb0.draggable.data('item')
+      $.post('http://ZmainInventory/giveItem', JSON.stringify({ item: itemData }))
+    },
+  })
+  $('#renameItem').droppable({
+    hoverClass: 'hoverControl',
+    drop: function (_0x4de8e2, _0x286466) {
+      itemData = _0x286466.draggable.data('item')
+      $.post(
+        'http://ZmainInventory/renameItem',
+        JSON.stringify({ item: itemData })
+      )
+    },
+  })
+  $('#deleteItem').droppable({
+    hoverClass: 'hoverControl',
+    drop: function (_0x570a69, _0x341546) {
+      itemData = _0x341546.draggable.data('item')
+      $.post(
+        'http://ZmainInventory/deleteItem',
+        JSON.stringify({ item: itemData })
+      )
+    },
+  })
+  $('#left-inventory').droppable({
+    drop: function (_0x24eb4d, _0x3c3596) {
+      itemData = _0x3c3596.draggable.data('item')
+      itemInventory = _0x3c3596.draggable.data('inventory')
+      if (type === 'trunk' && itemInventory === 'second') {
+        disableInventory(500)
+        $.post(
+          'http://ZmainInventory/TakeFromTrunk',
+          JSON.stringify({ item: itemData })
+        )
+      } else {
+        if (type === 'property' && itemInventory === 'second') {
+          disableInventory(500)
+          $.post(
+            'http://ZmainInventory/TakeFromProperty',
+            JSON.stringify({ item: itemData })
+          )
+        } else {
+          if (type === 'normal' && itemInventory === 'fast') {
+            disableInventory(500)
+            $.post(
+              'http://ZmainInventory/TakeFromFast',
+              JSON.stringify({ item: itemData })
+            )
+          } else {
+            if (type === 'vault' && itemInventory === 'second') {
+              disableInventory(500)
+              $.post(
+                'http://ZmainInventory/TakeFromVault',
+                JSON.stringify({ item: itemData })
+              )
+            } else {
+              type === 'player' &&
+                itemInventory === 'second' &&
+                (disableInventory(500),
+                $.post(
+                  'http://ZmainInventory/TakeFromPlayer',
+                  JSON.stringify({ item: itemData })
+                ))
+            }
+          }
+        }
+      }
+    },
+  })
+  $('#right-inventory').droppable({
+    drop: function (_0x5c387e, _0x2fd3b9) {
+      itemData = _0x2fd3b9.draggable.data('item')
+      itemInventory = _0x2fd3b9.draggable.data('inventory')
+      if (type === 'trunk' && itemInventory === 'main') {
+        disableInventory(500)
+        $.post(
+          'http://ZmainInventory/PutIntoTrunk',
+          JSON.stringify({ item: itemData })
+        )
+      } else {
+        if (type === 'property' && itemInventory === 'main') {
+          disableInventory(500)
+          $.post(
+            'http://ZmainInventory/PutIntoProperty',
+            JSON.stringify({ item: itemData })
+          )
+        } else {
+          if (type === 'vault' && itemInventory === 'main') {
+            disableInventory(500)
+            $.post(
+              'http://ZmainInventory/PutIntoVault',
+              JSON.stringify({ item: itemData })
+            )
+          } else {
+            type === 'player' &&
+              itemInventory === 'main' &&
+              (disableInventory(500),
+              $.post(
+                'http://ZmainInventory/PutIntoPlayer',
+                JSON.stringify({ item: itemData })
+              ))
+          }
+        }
+      }
+    },
+  })
+  document
+    .getElementById('textArea')
+    .addEventListener('keyup', function (_0x218765) {
+      _0x218765.preventDefault()
+      _0x218765.keyCode === 13 &&
+        $('#keyboard-input').is(':visible') &&
+        $('#textArea').is(':focus') &&
+        ($.post(
+          'http://ZmainInventory/send',
+          JSON.stringify({
+            text: document.getElementById('textArea').value.trim(),
+            value: inputValue,
+            data: inputData
+          })
+        ),
+        (document.getElementById('textArea').value = ''),
+        $('#keyboard-input').hide())
+      _0x218765.keyCode === 27 &&
+        $('#keyboard-input').is(':visible') &&
+        $('#textArea').is(':focus') &&
+        ($.post('http://ZmainInventory/cancel', JSON.stringify({})),
+        (document.getElementById('textArea').value = ''),
+        $('#keyboard-input').hide())
+    })
+  $('#button\\.valider').click(function () {
+    $.post(
+      'http://ZmainInventory/send',
+      JSON.stringify({
+        text: document.getElementById('textArea').value.trim(),
+        value: inputValue,
+        data: inputData
+      })
+    ),
+    (document.getElementById('textArea').value = ''),
+    $('#keyboard-input').hide()
+  })
+  $('#button\\.showButton').click(function () {
+    $.post(
+      'http://ZmainInventory/giveCard',
+      JSON.stringify({
+        info: idcard,
+        type: idcardType,
+      })
+    )
+    $('.menu').hide()
+  })
+  $('#button\\.chooseButton').click(function () {
+    $.post(
+      'http://ZmainInventory/lookCard',
+      JSON.stringify({
+        info: idcard,
+        type: idcardType,
+      })
+    )
+    $('.menu').hide()
+  })
+  $('#button\\.closeIdCard').click(function () {
+    $('#id-card').hide()
+    idcardOpen = false
+    for (let _0x582162 = 0; _0x582162 < totalSlots; _0x582162++) {
+      $('#right-inventory').append(
+        '<div class="item-info"><div id="item-' +
+          _0x582162 +
+          '" class="item"></div><div class="item-name-bg"></div></div>'
+      )
+    }
+  })
+})
+$.widget('ui.dialog', $.ui.dialog, {
+  options: {
+    clickOutside: false,
+    clickOutsideTrigger: '',
+  },
+  open: function () {
+    var _0x82391f = $(this.options.clickOutsideTrigger),
+      _0x483347 = this
+    this.options.clickOutside &&
+      $(document).on(
+        'click.ui.dialogClickOutside' + _0x483347.eventNamespace,
+        function (_0x5a5834) {
+          var _0x635a29 = $(_0x5a5834.target)
+          _0x635a29.closest($(_0x82391f)).length === 0 &&
+            _0x635a29.closest($(_0x483347.uiDialog)).length === 0 &&
+            _0x483347.close()
+        }
+      )
+    this['_super']()
+  },
+  close: function () {
+    $(document).off('click.ui.dialogClickOutside' + this.eventNamespace)
+    this['_super']()
+  },
+})
+var currentNotification = null
+function NotifyDefault(_0x5129fd, _0x315ded) {
+  var _0x3b089f = 1
+  if (currentNotification == 1) {
+    return
+  }
+  currentNotification == undefined && (currentNotification = 1)
+  $('.notification').prepend(
+    '        \n        <div class="notify-without-icon" id="notifydef-' +
+      _0x3b089f +
+      '">\n            <div class="content-notify-without-icon">\n                <div class="notify-without-icon-text">\n                    <span>' +
+      _0x5129fd +
+      '</span>\n                </div>\n            </div>\n            <div class="progress-bar-notifi-without-icon"></div>\n        </div>\n    '
+  )
+  var _0x4870f3 = $('#notifydef-' + _0x3b089f),
+    _0x273a72 = _0x4870f3.find('.progress-bar-notifi-without-icon'),
+    _0x3d260a = Date.now(),
+    _0x1c7e96 = setInterval(function () {
+      var _0x187bf8 = Date.now() - _0x3d260a,
+        _0x2fe33f = (_0x187bf8 / _0x315ded) * 100
+      _0x2fe33f >= 100
+        ? (clearInterval(_0x1c7e96),
+          setTimeout(() => {
+            _0x4870f3.addClass('hidden')
+          }, 150),
+          setTimeout(() => {
+            _0x4870f3.remove()
+            currentNotification = null
+          }, 600))
+        : _0x273a72.css('width', _0x2fe33f + '%')
+    }, 10)
+  _0x3b089f++
+}
+function NotifyItem(_0x468ec2, _0x1a114b, _0x4a4b6e) {
+  var _0x48ad0f = 1
+  _0x1a114b == undefined &&
+    (_0x1a114b =
+      'https://cdn.discordapp.com/attachments/1008837979894198413/1129138995301994606/togo_box.png')
+  $('.iconNotif').prepend(
+    '\n        <div class="notify-with-icon" id="notify-' +
+      _0x48ad0f +
+      '"">\n            <div class="content-notify-with-icon">\n            <img src="' +
+      _0x1a114b +
+      '" alt="">\n\n            </div>\n            <div class="notify-with-icon-text">\n                <span>' +
+      _0x468ec2 +
+      '</span>\n            </div>\n            <div class="notify-with-icon-count">\n                <span>' +
+      _0x4a4b6e +
+      '</span>\n            </div>\n        </div>\n    '
+  )
+  var _0x5caa00 = $('#notify-' + _0x48ad0f),
+    _0x333801 = Date.now(),
+    _0x39ecff = setInterval(function () {
+      var _0x320387 = Date.now() - _0x333801,
+        _0x59a192 = (_0x320387 / 3000) * 100
+      if (_0x59a192 >= 100) {
+        clearInterval(_0x39ecff)
+        setTimeout(() => {
+          _0x5caa00.addClass('hidden')
+        }, 150)
+        setTimeout(() => {
+          _0x5caa00.remove()
+        }, 600)
+      } else {
+      }
+    }, 10)
+  _0x48ad0f++
+}
+function isDefined(_0x4bcb0a) {
+  return typeof _0x4bcb0a !== 'undefined' && _0x4bcb0a !== null
+}
+function format(_0x1fc697) {
+  var _0x166ff1 = false,
+    _0x46fc78 = '',
+    _0x2cfe5d = ''
+  for (var _0x354472 = 0; _0x354472 < _0x1fc697.length; _0x354472++) {
+    if (_0x1fc697[_0x354472] === '~') {
+      var _0x19cf78 = ''
+      _0x354472++
+      while (_0x1fc697[_0x354472] != '~') {
+        _0x19cf78 += _0x1fc697[_0x354472]
+        _0x354472++
+      }
+      if (isDefined(config_text_color[_0x19cf78])) {
+        _0x46fc78 = config_text_color[_0x19cf78]
+        !_0x166ff1
+          ? ((_0x2cfe5d += '<span style="color: ' + _0x46fc78 + '">'),
+            (_0x166ff1 = true))
+          : (_0x2cfe5d += '</span><span style="color: ' + _0x46fc78 + '">')
+      } else {
+        if (isDefined(config_text_fonts[_0x19cf78])) {
+          _0x46fc78 = config_text_fonts[_0x19cf78]
+          !_0x166ff1
+            ? ((_0x2cfe5d += '<span style="' + _0x46fc78 + '">'),
+              (_0x166ff1 = true))
+            : (_0x2cfe5d += '</span><span style="' + _0x46fc78 + '">')
+        } else {
+          isDefined(Keys[_0x19cf78]) &&
+            (_0x2cfe5d += '<span class="key">' + Keys[_0x19cf78] + '</span>')
+        }
+      }
+    } else {
+      _0x2cfe5d += _0x1fc697[_0x354472]
+    }
+  }
+  return _0x166ff1 && (_0x2cfe5d += '</span>'), _0x2cfe5d
+}
+function GTA_PICTURE(_0x1cd534) {
+  return isDefined(Picture[_0x1cd534])
+    ? 'assets/images/' + Picture[_0x1cd534]
+    : false
+}
+function setCount(_0x121b30) {
+  return (
+    (count = _0x121b30.count),
+    _0x121b30.limit > 0 && (count = _0x121b30.count),
+    _0x121b30.type === 'item_weapon' && (count = ''),
+    _0x121b30.type === 'item_idcard' && (count = ''),
+    (_0x121b30.type === 'item_account' || _0x121b30.type === 'item_money') &&
+      (count = formatMoney(_0x121b30.count)),
+    count
+  )
+}
+function formatMoney(_0x127c00, _0x4dff0c, _0x186d3d, _0x58a121) {
+  var _0x4dff0c = isNaN((_0x4dff0c = Math.abs(_0x4dff0c))) ? 2 : _0x4dff0c,
+    _0x186d3d = _0x186d3d == undefined ? '.' : _0x186d3d,
+    _0x58a121 = _0x58a121 == undefined ? ',' : _0x58a121,
+    _0xfab64a = _0x127c00 < 0 ? '-' : '',
+    _0x135801 = String(
+      parseInt(
+        (_0x127c00 = Math.abs(Number(_0x127c00) || 0).toFixed(_0x4dff0c))
+      )
+    ),
+    _0x4e71fe = (_0x4e71fe = _0x135801.length) > 3 ? _0x4e71fe % 3 : 0
+  return (
+    _0xfab64a +
+    (_0x4e71fe ? _0x135801.substr(0, _0x4e71fe) + _0x58a121 : '') +
+    _0x135801.substr(_0x4e71fe).replace(/(\d{3})(?=\d)/g, '$1' + _0x58a121)
+  )
+}
+$(document).mousedown(function (_0x499015) {
+  if (_0x499015.which != 3) {
+    return
+  }
+  itemData = $(_0x499015.target).data('item')
+  if (itemData == undefined || itemData.usable == undefined) {
+    return
+  }
+  itemInventory = $(_0x499015.target).data('ZmainInventory')
+  itemData.usable &&
+    $.post('http://ZmainInventory/itemUsable', JSON.stringify({ item: itemData }))
+})
+config.activeHud &&
+  $(document).ready(function () {
+    HealthIndicator = new ProgressBar.Circle('#HealthIndicator', {
+      color: config.colorHud,
+      trailColor: 'rgb(80, 80, 80)',
+      strokeWidth: 10,
+      trailWidth: 10,
+      duration: 2000,
+      easing: 'easeInOut',
+    })
+    ArmorIndicator = new ProgressBar.Circle('#ArmorIndicator', {
+      color: config.colorHud,
+      trailColor: 'rgb(80, 80, 80)',
+      strokeWidth: 10,
+      trailWidth: 10,
+      duration: 2000,
+      easing: 'easeInOut',
+    })
+    HungerIndicator = new ProgressBar.Circle('#HungerIndicator', {
+      color: config.colorHud,
+      trailColor: 'rgb(80, 80, 80)',
+      strokeWidth: 10,
+      trailWidth: 10,
+      duration: 2000,
+      easing: 'easeInOut',
+    })
+    ThirstIndicator = new ProgressBar.Circle('#ThirstIndicator', {
+      color: config.colorHud,
+      trailColor: 'rgb(80, 80, 80)',
+      strokeWidth: 10,
+      trailWidth: 10,
+      duration: 2000,
+      easing: 'easeInOut',
+    })
+  })
+
+var ZConfig = new Object();
+
+ZConfig.CloseKey = [27]
+
+$(document).ready(function () {
+  $("body").on("keyup", function (key) {
+    if (ZConfig.CloseKey.includes(key.which)) {
+      $.post(
+        'http://ZmainInventory/closeInventory',
+        JSON.stringify({})
+    )}
+});
+})

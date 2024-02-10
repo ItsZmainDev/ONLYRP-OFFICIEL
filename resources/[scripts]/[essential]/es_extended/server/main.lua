@@ -471,7 +471,9 @@ AddEventHandler('esx:useItem', function(itemName, itemData)
 	local xItem = xPlayer.getInventoryItem(itemName)
 	local xItem2 = xPlayer.getWeapon(itemName)
 
-	--TriggerEvent("ratelimit", source, "esx:useItem")
+	if itemData == nil then
+		itemData = {}
+	end
 
 	if not itemData.type then itemData.type = 'item_standard' end
 

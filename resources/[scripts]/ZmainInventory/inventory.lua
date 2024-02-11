@@ -116,7 +116,7 @@ CreateThread(function()
 
         for k,v in pairs(ESX.PlayerData.accounts) do
             if Config.Account[v.name] then
-                Config.Pictures[v.name] = ('/src/html/assets/items/%s.png'):format(v.name)
+                -- Config.Pictures[v.name] = ('/src/html/assets/items/%s.png'):format(v.name)
                 if Config.Pictures[v.name] == nil then
                     Config.Pictures[v.name] = 'https://cdn.discordapp.com/attachments/1008837979894198413/1129138995301994606/togo_box.png'
                 end
@@ -132,7 +132,7 @@ CreateThread(function()
         end
     
         for k,v in pairs(ESX.PlayerData.inventory) do
-            Config.Pictures[v.name] = ('/src/html/assets/items/%s.png'):format(v.name)
+            -- Config.Pictures[v.name] = ('/src/html/assets/items/%s.png'):format(v.name)
             if Config.Pictures[v.name] == nil then
                 Config.Pictures[v.name] = 'https://cdn.discordapp.com/attachments/1008837979894198413/1129138995301994606/togo_box.png'
             end
@@ -148,7 +148,7 @@ CreateThread(function()
         end
     
         for k,v in pairs(ESX.PlayerData.loadout) do
-            Config.Pictures[v.name] = ('/src/html/assets/items/%s.png'):format(v.name)
+            -- Config.Pictures[v.name] = ('/src/html/assets/items/%s.png'):format(v.name)
             if Config.Pictures[v.name] == nil then
                 Config.Pictures[v.name] = 'https://cdn.discordapp.com/attachments/1008837979894198413/1129138995301994606/togo_box.png'
             end

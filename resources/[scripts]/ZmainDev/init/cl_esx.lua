@@ -53,7 +53,7 @@ Citizen.CreateThread(function()
 
 	Wait(500)
     ESXLoaded = true
-	ReplaceHudColourWithRgba(116, tonumber(UTILS.ServerColor.r), tonumber(UTILS.ServerColor.g), tonumber(UTILS.ServerColor.b), 255)
+	-- ReplaceHudColourWithRgba(116, tonumber(UTILS.ServerColor.r), tonumber(UTILS.ServerColor.g), tonumber(UTILS.ServerColor.b), 255)
     print('ESX Loaded')
 	exports["pma-voice"]:setRadioVolume(100)
 end)

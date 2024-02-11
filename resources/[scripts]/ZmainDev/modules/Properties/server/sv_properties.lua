@@ -227,7 +227,7 @@ AddEventHandler('esx:playerLoaded', function(source)
     local source = source
     local xPlayer = ESX.GetPlayerFromId(source)
 
-    Properties.garage.count2[xPlayer.UniqueID] = 0
+    -- Properties.garage.count2[xPlayer.UniqueID] = 0
 
     Wait(5000)
 
@@ -258,7 +258,7 @@ AddEventHandler('zmain:admin:restart', function()
     local source = source
     local xPlayer = ESX.GetPlayerFromId(source)
 
-    Properties.garage.count2[xPlayer.UniqueID] = 0
+    -- Properties.garage.count2[xPlayer.UniqueID] = 0
 
     Wait(5000)
 
